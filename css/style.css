@@ -1071,7 +1071,7 @@ footer {
 
 /* Reduzir o tamanho da imagem do hero no desktop */
 .hero-image img {
-    max-width: 90%; /* Reduzir levemente o tamanho */
+    max-width: 80%; /* Reduzir levemente o tamanho */
 }
 
 /* Ajustar os botões do hero no mobile */
