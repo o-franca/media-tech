@@ -1143,3 +1143,76 @@ footer {
         margin-bottom: 10px;
     }
 }
+/* Melhorar a responsividade da seção About Stats */
+
+/* Ajustes para telas médias */
+@media (max-width: 992px) {
+    .about-stats {
+        gap: 15px; /* Reduzir o espaçamento entre os itens */
+    }
+    
+    .stat-item h4 {
+        font-size: 2rem; /* Reduzir ligeiramente o tamanho dos números */
+    }
+}
+
+/* Ajustes para telas pequenas (mobile) */
+@media (max-width: 768px) {
+    /* Versão existente com divisão em colunas que você já tem:
+    .about-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    */
+    
+    /* Nova versão em linha única para mobile: */
+    .about-stats {
+        flex-direction: row; /* Manter em linha */
+        flex-wrap: nowrap; /* Evitar quebra para nova linha */
+        justify-content: space-around; /* Espaçar igualmente */
+        gap: 10px; /* Espaçamento mínimo entre itens */
+        margin-top: 30px;
+    }
+    
+    .stat-item {
+        text-align: center;
+        flex: 1; /* Cada item ocupa espaço igual */
+        min-width: 0; /* Permitir compressão */
+    }
+    
+    .stat-item h4 {
+        font-size: 1.8rem; /* Números menores */
+        margin-bottom: 2px;
+    }
+    
+    .stat-item p {
+        font-size: 0.8rem; /* Texto descritivo menor */
+        white-space: nowrap; /* Evitar quebra de linha no texto */
+    }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+    .stat-item h4 {
+        font-size: 1.5rem; /* Números ainda menores */
+    }
+    
+    .stat-item p {
+        font-size: 0.7rem; /* Texto ainda menor */
+    }
+}
+
+/* Ajuste extremo para telas muito estreitas */
+@media (max-width: 360px) {
+    .about-stats {
+        gap: 5px; /* Espaçamento mínimo */
+    }
+    
+    .stat-item h4 {
+        font-size: 1.3rem;
+    }
+    
+    .stat-item p {
+        font-size: 0.65rem;
+    }
+}
