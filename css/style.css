@@ -981,7 +981,89 @@ footer {
         flex-direction: column;
         gap: 20px;
     }
+    /* Modificações para o Portfolio e Hero responsivos */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item {
+    height: 250px;
+}
+
+@media (max-width: 992px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
     
+    .portfolio-item {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Esconder a imagem do hero em telas menores */
+    .hero-image {
+        display: none;
+    }
+    
+    /* Ajustar o texto do hero para ocupar toda a largura */
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    .portfolio-item {
+        height: 160px;
+    }
+    
+    .portfolio-overlay h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    
+    .portfolio-overlay p {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    
+    .portfolio-btn {
+        padding: 6px 15px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+    
+    .portfolio-item {
+        height: 120px;
+    }
+    
+    .portfolio-overlay h3 {
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+    
+    .portfolio-overlay p {
+        display: none;
+    }
+    
+    .portfolio-btn {
+        padding: 4px 10px;
+        font-size: 0.7rem;
+    }
+}
     .testimonial-controls {
         display: none;
     }
