@@ -1067,4 +1067,79 @@ footer {
     .testimonial-controls {
         display: none;
     }
+/* Ajustes adicionais para responsividade */
+
+/* Reduzir o tamanho da imagem do hero no desktop */
+.hero-image img {
+    max-width: 90%; /* Reduzir levemente o tamanho */
+}
+
+/* Ajustar os botões do hero no mobile */
+@media (max-width: 768px) {
+    /* Modificações existentes... */
+    
+    /* Espaçamento entre os botões do hero */
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .btn-outline {
+        margin-left: 0; /* Remover a margem lateral */
+    }
+    
+    /* Duas colunas para os serviços em mobile */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Ajustes para telas ainda menores */
+@media (max-width: 576px) {
+    /* Modificações existentes... */
+    
+    /* Manter as 2 colunas para serviços em telas pequenas */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    /* Ajustar tamanho das cards de serviço */
+    .service-card {
+        padding: 20px;
+    }
+    
+    .service-icon {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    
+    .service-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    
+    .service-card p {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+}
+
+/* Para telas muito pequenas, ajustar ainda mais os serviços */
+@media (max-width: 400px) {
+    .services-grid {
+        gap: 10px;
+    }
+    
+    .service-card {
+        padding: 15px;
+    }
+    
+    .service-icon {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
 }
