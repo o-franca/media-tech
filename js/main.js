@@ -119,7 +119,8 @@ dots.forEach((dot, index) => {
     dot.addEventListener('click', () => showTestimonial(index));
 });
 
-// Auto-rotate testimonials\let testimonialInterval = setInterval(() => {
+// Auto-rotate testimonials
+let testimonialInterval = setInterval(() => {
     let index = currentIndex + 1;
     if (index >= testimonialItems.length) index = 0;
     showTestimonial(index);
