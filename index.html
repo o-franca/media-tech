@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Marketing & Communications Consultant</title>
+    <title>Joao Franca | Marketing & Communications Consultant in Ireland</title>
+    <meta name="description" content="Multilingual communications consultant based in Cork, Ireland. Digital marketing, PR, no-code development & AI. Experience with Samsung, Bayer, and more.">
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Open Graph for LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Joao Franca — Marketing & Communications Consultant">
+    <meta property="og:description" content="From leading PR campaigns for Samsung and Bayer to building tech platforms in Ireland. Digital marketing, communications & no-code development.">
+    <meta property="og:url" content="https://mediaconsultant.ie">
+    <meta property="og:locale" content="en_IE">
+    <meta property="og:site_name" content="OF.MediaTech">
 
-    <!-- Font Awesome & Google Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Joao Franca — Marketing & Communications Consultant">
+    <meta name="twitter:description" content="Multilingual consultant based in Cork, Ireland. Digital marketing, PR, no-code dev & AI.">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "OF.MediaTech",
+        "description": "Marketing & Communications Consulting",
+        "url": "https://mediaconsultant.ie",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cork",
+            "addressCountry": "IE"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Joao Paulo Franca",
+            "jobTitle": "Marketing & Communications Consultant",
+            "knowsLanguage": ["en", "pt", "es"]
+        },
+        "areaServed": ["Ireland", "Europe", "Brazil"]
+    }
+    </script>
+
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- CSS & Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header -->
@@ -29,7 +67,7 @@
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="mobile-menu">
+                <div class="mobile-menu" aria-label="Toggle menu">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -43,16 +81,44 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Marketing & Communications Consultant</h1>
-                    <p>I help businesses develop effective communication strategies and build a strong digital presence. With international experience in Brazil and Ireland.</p>
+                    <div class="availability-badge">
+                        <span class="pulse-dot"></span>
+                        Available for Hire in Cork, Ireland
+                    </div>
+                    <h1>I'm a <span class="typed-text"></span><span class="cursor">|</span></h1>
+                    <p>From leading PR campaigns for Samsung and Bayer in Latin America to building tech platforms in Ireland — I help businesses grow through strategic communications and digital innovation.</p>
                     <div class="hero-btns">
-                        <a href="#portfolio" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                        <a href="assets/CV-JoaoPauloFranca.pdf" class="btn btn-accent" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <div class="hero-languages">
+                        <span class="lang-tag">English</span>
+                        <span class="lang-tag">Portuguese</span>
+                        <span class="lang-tag">Spanish</span>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/hero2.png">
+                    <img src="assets/hero2.png" alt="Joao Franca - Marketing Consultant" loading="eager">
                 </div>
+            </div>
+        </div>
+        <!-- Animated background particles -->
+        <div class="hero-particles" aria-hidden="true"></div>
+    </section>
+
+    <!-- Client Logos -->
+    <section class="client-logos">
+        <div class="container">
+            <p class="logos-label">Trusted by leading brands</p>
+            <div class="logos-track">
+                <img src="assets/Samsung.png" alt="Samsung" loading="lazy">
+                <img src="assets/Bayer.png" alt="Bayer" loading="lazy">
+                <img src="assets/Localiza.png" alt="Localiza" loading="lazy">
+                <img src="assets/BHAirport.png" alt="BH Airport" loading="lazy">
+                <img src="assets/Araujo.png" alt="Araujo" loading="lazy">
             </div>
         </div>
     </section>
@@ -61,30 +127,34 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2>About Me</h2>
-                <p>Learn more about my experience and professional journey</p>
+                <h2 class="animate-on-scroll">About Me</h2>
+                <p>The story behind the work</p>
             </div>
             <div class="about-content">
-                <div class="about-image">
-                    <img src="assets/profile.jpg" alt="Consultant Profile">
+                <div class="about-image animate-on-scroll">
+                    <img src="assets/profile.jpg" alt="Joao Franca profile photo" loading="lazy">
                 </div>
-                <div class="about-text">
-                    <h3>Experienced Marketing & Communications Consultant</h3>
-                    <p>I’m an independent consultant (sole trader) based in Ireland, with extensive experience in marketing and communications projects across Europe and Brazil.</p>
-                    <p>Specialised in digital marketing, content production, video editing, landing page and website development, newsletter management, AI projects and comprehensive communication campaigns.</p>
-                    <p>My approach blends creativity with data-driven strategy, ensuring measurable and impactful results. I stay current with the latest trends and tools to deliver innovative solutions.</p>
+                <div class="about-text animate-on-scroll">
+                    <h3>From Corporate PR to Building Tech in Ireland</h3>
+                    <p>I started my career managing communications for some of the biggest brands in Latin America — Samsung, Bayer, BH Airport. I ran press conferences, built media relationships, and led campaigns that reached millions.</p>
+                    <p>Then I moved to Ireland. I worked in pubs, retail, and call centres while learning English and discovering a new passion: building things with technology. I wrote a book, produced video content, and created two tech platforms — <strong>Dine With Me</strong> (a social dining app) and <strong>Media Training AI</strong> (a corporate training tool).</p>
+                    <p>Today, I bring both worlds together: the strategic thinking of a communications professional and the hands-on skills of a builder. I don't just plan campaigns — I build the tools to run them.</p>
                     <div class="about-stats">
-                        <div class="stat-item">
-                            <h4>8+</h4>
+                        <div class="stat-item animate-on-scroll">
+                            <h4><span class="counter" data-target="8">0</span>+</h4>
                             <p>Years of Experience</p>
                         </div>
-                        <div class="stat-item">
-                            <h4>50+</h4>
+                        <div class="stat-item animate-on-scroll">
+                            <h4><span class="counter" data-target="50">0</span>+</h4>
                             <p>Projects Completed</p>
                         </div>
-                        <div class="stat-item">
-                            <h4>30+</h4>
+                        <div class="stat-item animate-on-scroll">
+                            <h4><span class="counter" data-target="30">0</span>+</h4>
                             <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item animate-on-scroll">
+                            <h4><span class="counter" data-target="3">0</span></h4>
+                            <p>Languages Spoken</p>
                         </div>
                     </div>
                 </div>
@@ -96,45 +166,57 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Services</h2>
-                <p>Custom solutions to boost your digital presence and communication strategy</p>
+                <h2 class="animate-on-scroll">What I Do</h2>
+                <p>Turning coffee into campaigns since 2018</p>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
-                    <h3>Digital Marketing</h3>
-                    <p>Comprehensive digital marketing strategies to increase your online visibility and attract more customers.</p>
-                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <h3>Digital Marketing & Paid Media</h3>
+                    <ul class="service-list">
+                        <li>Google, Meta & Amazon Ads management</li>
+                        <li>SEO & content strategy</li>
+                        <li>Email marketing & newsletters</li>
+                        <li>Social media management</li>
+                        <li>Analytics & conversion tracking</li>
+                    </ul>
+                    <a href="#portfolio" class="learn-more" data-filter="marketing">See Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-pen-fancy"></i></div>
-                    <h3>Content Production</h3>
-                    <p>High-quality, engaging content for blogs, social media and corporate materials.</p>
-                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i class="fas fa-newspaper"></i></div>
+                    <h3>Communications & PR</h3>
+                    <ul class="service-list">
+                        <li>Press relations & media outreach</li>
+                        <li>Corporate communications strategy</li>
+                        <li>Crisis communications</li>
+                        <li>Event management & press conferences</li>
+                        <li>Content production & copywriting</li>
+                    </ul>
+                    <a href="#portfolio" class="learn-more" data-filter="press">See Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-video"></i></div>
-                    <h3>Video Editing</h3>
-                    <p>Professional video editing for campaigns, social media and corporate communication.</p>
-                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
-                    <h3>Web Development</h3>
-                    <p>Creation of landing pages and websites optimised for conversion and user experience.</p>
-                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <h3>No-Code Development & AI</h3>
+                    <ul class="service-list">
+                        <li>Website & landing page development</li>
+                        <li>WordPress & Wix builds</li>
+                        <li>AI chatbot implementation</li>
+                        <li>Automation & workflow tools</li>
+                        <li>Mobile app prototyping</li>
+                    </ul>
+                    <a href="#portfolio" class="learn-more" data-filter="web">See Projects <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-robot"></i></div>
-                    <h3>AI Projects</h3>
-                    <p>Implementation of AI solutions to streamline marketing and communication processes.</p>
-                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Reporting & Analytics</h3>
-                    <p>Detailed performance reports with actionable insights to enhance your strategies.</p>
-                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Telemarketing & Sales Support</h3>
+                    <ul class="service-list">
+                        <li>Outbound & inbound calling</li>
+                        <li>Lead generation & qualification</li>
+                        <li>Customer engagement campaigns</li>
+                        <li>CRM management</li>
+                        <li>Multilingual support (EN/PT/ES)</li>
+                    </ul>
+                    <a href="#contact" class="learn-more">Get in Touch <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -144,115 +226,191 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="section-header">
-                <h2>Portfolio</h2>
-                <p>Check out some of my recent projects</p>
+                <h2 class="animate-on-scroll">Portfolio</h2>
+                <p>Real projects, real results</p>
             </div>
             <div class="portfolio-filters">
                 <button class="portfolio-filter-btn active" data-filter="all">All</button>
                 <button class="portfolio-filter-btn" data-filter="marketing">Marketing</button>
-                <button class="portfolio-filter-btn" data-filter="web">Web</button>
+                <button class="portfolio-filter-btn" data-filter="web">Web & AI</button>
                 <button class="portfolio-filter-btn" data-filter="video">Video</button>
-                <button class="portfolio-filter-btn" data-filter="ai">AI</button>
-                <button class="portfolio-filter-btn" data-filter="press">Press</button>
+                <button class="portfolio-filter-btn" data-filter="press">Press & PR</button>
                 <button class="portfolio-filter-btn" data-filter="corporate">Corporate</button>
             </div>
-        <div class="portfolio-grid">
-            <div class="portfolio-item" data-category="marketing">
-                <img src="assets/SignedWithFaith.png" alt="Digital Marketing Campaign" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Digital Campaign</h3>
-                    <p>End-to-end digital marketing strategy for a tech company.</p>
-                    <a href="cases/digital-campaign.html" class="portfolio-btn">View Details</a>
+            <div class="portfolio-grid">
+                <!-- Tech platforms first (strongest signal for recruiters) -->
+                <div class="portfolio-item animate-on-scroll" data-category="web"
+                     data-title="Dine With Me"
+                     data-desc="A social dining platform I built from scratch — cooking competitions among friends, with real-time chat, payments via Stripe, and push notifications. Available on iOS and Android."
+                     data-metrics="Full-stack app|iOS & Android|Stripe payments|Real-time chat|Push notifications"
+                     data-tags="HTML,CSS,JavaScript,Supabase,Capacitor,Stripe"
+                     data-link="https://www.dinewithme.org">
+                    <img src="assets/alegriavirtual2.png" alt="Dine With Me App" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">Featured</span>
+                        <h3>Dine With Me</h3>
+                        <p>Social dining platform — built from scratch</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="web"
+                     data-title="Media Training AI"
+                     data-desc="An AI-powered corporate media training platform that helps professionals prepare for press interviews with real-time feedback and coaching."
+                     data-metrics="AI-powered coaching|Real-time feedback|Corporate training tool"
+                     data-tags="AI,JavaScript,Web App"
+                     data-link="https://mediatraining.ai">
+                    <img src="assets/MediaTraining.png" alt="Media Training AI" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">Featured</span>
+                        <h3>Media Training AI</h3>
+                        <p>AI-powered corporate training platform</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Corporate/PR cases -->
+                <div class="portfolio-item animate-on-scroll" data-category="press"
+                     data-title="Samsung Press Conference"
+                     data-desc="Organized and managed press conferences for Samsung product launches in Latin America, coordinating media relations and event logistics."
+                     data-metrics="Major product launches|50+ media outlets|National TV coverage"
+                     data-tags="PR,Event Management,Media Relations"
+                     data-link="cases/press-conference.html">
+                    <img src="assets/Samsung.png" alt="Samsung Press Conference" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Samsung Press Conference</h3>
+                        <p>Product launch media management</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="corporate"
+                     data-title="Bayer Corporate Event"
+                     data-desc="Planning and execution of corporate events for Bayer, including internal communications strategy and stakeholder engagement."
+                     data-metrics="Corporate events|Internal comms|Stakeholder engagement"
+                     data-tags="Corporate Communications,Event Management"
+                     data-link="cases/corporate-event.html">
+                    <img src="assets/Bayer.png" alt="Bayer Corporate Event" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Bayer Corporate Event</h3>
+                        <p>Corporate communications & events</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="press"
+                     data-title="BH Airport Press Relations"
+                     data-desc="Strategic press relations for BH Airport, managing media outreach and communication during major operational milestones."
+                     data-metrics="Airport PR|Media outreach|Crisis readiness"
+                     data-tags="PR,Media Relations,Corporate"
+                     data-link="cases/press-relations.html">
+                    <img src="assets/BHAirport.png" alt="BH Airport Press Relations" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>BH Airport Press Relations</h3>
+                        <p>Strategic media relations</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="corporate"
+                     data-title="Localiza Corporate Communications"
+                     data-desc="Strategic corporate communications planning for Localiza, Brazil's largest car rental company."
+                     data-metrics="Strategic planning|Brand positioning|Internal comms"
+                     data-tags="Corporate Communications,Strategy"
+                     data-link="cases/corporate-communications.html">
+                    <img src="assets/Localiza.png" alt="Localiza Communications" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Localiza Corporate Comms</h3>
+                        <p>Strategic communications planning</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Marketing & Web -->
+                <div class="portfolio-item animate-on-scroll" data-category="marketing"
+                     data-title="Digital Marketing Campaign"
+                     data-desc="End-to-end digital marketing strategy including paid media, content creation, and performance tracking."
+                     data-metrics="Full-funnel strategy|Paid media|Content creation"
+                     data-tags="Google Ads,Meta Ads,Analytics"
+                     data-link="cases/digital-campaign.html">
+                    <img src="assets/SignedWithFaith.png" alt="Digital Campaign" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Digital Campaign</h3>
+                        <p>End-to-end marketing strategy</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="web"
+                     data-title="Corporate Website"
+                     data-desc="UX-focused website development with responsive design and conversion optimisation."
+                     data-metrics="Responsive design|SEO optimised|Conversion focused"
+                     data-tags="HTML,CSS,WordPress,UX Design"
+                     data-link="cases/corporate-website.html">
+                    <img src="assets/VivaoCentro.png" alt="Corporate Website" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>UX-focused web development</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="marketing"
+                     data-title="Social Media Management"
+                     data-desc="Strategy and content creation for a retail brand's social channels, including scheduling, analytics, and community management."
+                     data-metrics="Content strategy|Community growth|Engagement boost"
+                     data-tags="Social Media,Content,Canva"
+                     data-link="cases/social-media-management.html">
+                    <img src="assets/IrishFlorist.png" alt="Social Media Management" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Social Media Management</h3>
+                        <p>Strategy & content creation</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="video"
+                     data-title="Video Series Production"
+                     data-desc="Production and editing of a video series for an international campaign, from scripting to final delivery."
+                     data-metrics="Full production|International reach|Multi-platform"
+                     data-tags="Video,CapCut,Content Production"
+                     data-link="cases/video-series.html">
+                    <img src="assets/Corkfilm.png" alt="Video Series" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Video Series</h3>
+                        <p>International campaign production</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="web"
+                     data-title="Landing Page Design"
+                     data-desc="High-converting landing page design and development for a product launch."
+                     data-metrics="Conversion optimised|A/B tested|Mobile-first"
+                     data-tags="HTML,CSS,UX,Landing Page"
+                     data-link="cases/landing-page.html">
+                    <img src="assets/TrainerFinder.jpg" alt="Landing Page" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Landing Page</h3>
+                        <p>High-converting product launch page</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="press"
+                     data-title="Media Relations Strategy"
+                     data-desc="Strategic media outreach and relationship building for corporate clients, securing coverage in major outlets."
+                     data-metrics="Media outreach|Press coverage|Brand visibility"
+                     data-tags="PR,Media Relations,Strategy"
+                     data-link="cases/media-relations.html">
+                    <img src="assets/Araujo.png" alt="Media Relations" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Media Relations</h3>
+                        <p>Strategic outreach & coverage</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-item" data-category="web">
-                <img src="assets/VivaoCentro.png" alt="Corporate Website" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Corporate Website</h3>
-                    <p>UX-focused website development for a consultancy firm.</p>
-                    <a href="cases/corporate-website.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="video">
-                <img src="assets/Corkfilm.png" alt="Video Series Production" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Video Series</h3>
-                    <p>Production and editing of an international campaign series.</p>
-                    <a href="cases/video-series.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="ai">
-                <img src="assets/MediaTraining.png" alt="AI Project" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>AI Chatbot</h3>
-                    <p>Intelligent chatbot implementation for customer support.</p>
-                    <a href="cases/ai-chatbot.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="marketing">
-                <img src="assets/IrishFlorist.png" alt="Social Media Management" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Social Media Management</h3>
-                    <p>Strategy and content creation for a retail brand's social channels.</p>
-                    <a href="cases/social-media-management.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="web">
-                <img src="assets/TrainerFinder.jpg" alt="Landing Page Design" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Landing Page</h3>
-                    <p>Design and development for a product launch landing page.</p>
-                    <a href="cases/landing-page.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="press">
-                <img src="assets/BHAirport.png" alt="Press Release" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Press Relations</h3>
-                    <p>Relationship with the press.</p>
-                    <a href="cases/press-relations.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="corporate">
-                <img src="assets/alegriavirtual2.png" alt="Communications Campaign" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Corporate Campaign</h3>
-                    <p>Internal communications strategy and implementation.</p>
-                    <a href="cases/corporate-campaign.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="corporate">
-                <img src="assets/Localiza.png" alt="Communications Campaign" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Corporate Communications</h3>
-                    <p>Strategic corporate communications planning.</p>
-                    <a href="cases/corporate-communications.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="press">
-                <img src="assets/Samsung.png" alt="Press Event" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Press Conference</h3>
-                    <p>Organization and management of press events.</p>
-                    <a href="cases/press-conference.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="press">
-                <img src="assets/Araujo.png" alt="Media Relations" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Media Relations</h3>
-                    <p>Strategic media outreach and relationship building.</p>
-                    <a href="cases/media-relations.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="corporate">
-                <img src="assets/Bayer.png" alt="Corporate Event" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Corporate Event</h3>
-                    <p>Planning and execution of corporate events.</p>
-                    <a href="cases/corporate-event.html" class="portfolio-btn">View Details</a>
-                </div>
-            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Like what you see?</h2>
+            <p>I'm currently available for projects in Ireland and remotely across Europe.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Let's Work Together</a>
         </div>
     </section>
 
@@ -260,37 +418,62 @@
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <h2>Skills</h2>
-                <p>Competencies and tools I use to deliver exceptional results</p>
+                <h2 class="animate-on-scroll">Skills & Tools</h2>
+                <p>What's in my toolbox</p>
             </div>
-            <div class="skills-content">
-                <div class="skills-text">
-                    <h3>My Expertise</h3>
-                    <p>As a marketing and communications consultant, I’ve developed a diverse skill set that enables me to offer comprehensive, integrated solutions.</p>
-                    <p>I continuously update my knowledge with the latest market trends and tools to ensure high-quality, impactful outcomes.</p>
-                    <div class="skill-tools">
-                        <h4 class="tools-title">Tools I Use</h4>
-                        <div class="tools-grid">
-                            <div class="tool-item"><div class="tool-icon"><i class="fas fa-palette"></i></div><div class="tool-name">Canva</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fas fa-cut"></i></div><div class="tool-name">CapCut</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fab fa-wordpress"></i></div><div class="tool-name">WordPress</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fab fa-mailchimp"></i></div><div class="tool-name">Mailchimp</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fas fa-brain"></i></div><div class="tool-name">AI Tools</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fab fa-google"></i></div><div class="tool-name">Google Ads</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fab fa-facebook"></i></div><div class="tool-name">Meta Ads</div></div>
-                            <div class="tool-item"><div class="tool-icon"><i class="fab fa-amazon"></i></div><div class="tool-name">Amazon Ads</div></div>
-                        </div>
+            <div class="skills-categories">
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon"><i class="fas fa-bullhorn"></i></div>
+                    <h3>Marketing & Sales</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Ads</span>
+                        <span class="skill-tag">Meta Ads</span>
+                        <span class="skill-tag">Amazon Ads</span>
+                        <span class="skill-tag">SEO</span>
+                        <span class="skill-tag">Email Marketing</span>
+                        <span class="skill-tag">Lead Generation</span>
+                        <span class="skill-tag">Mailchimp</span>
+                        <span class="skill-tag">Telemarketing</span>
                     </div>
                 </div>
-                <div class="skills-bars">
-                    <div class="skill-bar"><div class="skill-info"><h4>Digital Marketing</h4><span>95%</span></div><div class="skill-progress"><span style="width: 95%"></span></div></div>
-                    <div class="skill-bar"><div class="skill-info"><h4>Content Production</h4><span>90%</span></div><div class="skill-progress"><span style="width: 90%"></span></div></div>
-                    <div class="skill-bar"><div class="skill-info"><h4>Video Editing</h4><span>85%</span></div><div class="skill-progress"><span style="width: 85%"></span></div></div>
-                    <div class="skill-bar"><div class="skill-info"><h4>AI Projects</h4><span>75%</span></div><div class="skill-progress"><span style="width: 75%"></span></div></div>
-                    <div class="skill-bar"><div class="skill-info"><h4>NoCode Development</h4><span>80%</span></div><div class="skill-progress"><span style="width: 80%"></span></div></div>
-                    <div class="skill-bar"><div class="skill-info"><h4>Frisbee Downloadable</h4><span>90%</span></div><div class="skill-progress"><span style="width: 90%"></span></div></div>
-                    <div class="skill-bar"><div class="skill-info"><h4>Public Relations</h4><span>90%</span></div><div class="skill-progress"><span style="width: 95%"></span></div></div>
-                    
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                    <h3>Development & Tech</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML / CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Wix</span>
+                        <span class="skill-tag">Landing Pages</span>
+                        <span class="skill-tag">Supabase</span>
+                        <span class="skill-tag">Capacitor</span>
+                        <span class="skill-tag">No-Code Tools</span>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Content & Creative</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">CapCut</span>
+                        <span class="skill-tag">Video Editing</span>
+                        <span class="skill-tag">Copywriting</span>
+                        <span class="skill-tag">Social Media</span>
+                        <span class="skill-tag">Newsletters</span>
+                        <span class="skill-tag">Photography</span>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Analytics & AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Analytics</span>
+                        <span class="skill-tag">ChatGPT</span>
+                        <span class="skill-tag">Claude AI</span>
+                        <span class="skill-tag">AI Automation</span>
+                        <span class="skill-tag">Data Reporting</span>
+                        <span class="skill-tag">A/B Testing</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -300,72 +483,145 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2>Testimonials</h2>
-                <p>What my clients say about my work and collaboration</p>
+                <h2 class="animate-on-scroll">What People Say</h2>
+                <p>Don't take my word for it</p>
             </div>
             <div class="testimonials-slider">
-                <div class="testimonial-item active"><img src="assets/renato.jpeg" alt="Client 1" class="testimonial-img"><p class="testimonial-text">"Outstanding professional delivering results beyond our expectations. Their strategic and creative approach transformed our digital presence and significantly boosted conversions."</p><h4 class="testimonial-name">Renatho Fugulin</h4><p class="testimonial-position">Account Manager, SmartPR</p></div>
-                <div class="testimonial-item"><img src="assets/joelma.jpeg" alt="Client 2" class="testimonial-img"><p class="testimonial-text">"Working with this consultant was a transformative experience for our company. TAn empathetic professional with the gift of listening and extracting the best stories from people."</p><h4 class="testimonial-name">Joelma Fraga</h4><p class="testimonial-position">Head of Communications and Marketing, BHA</p></div>
-                <div class="testimonial-item"><img src="assets/gabriel.jpeg" alt="Client 3" class="testimonial-img"><p class="testimonial-text">"Extremely competent and dedicated professional. Their integrated communication approach helped us establish a consistent presence across multiple channels and boost audience engagement."</p><h4 class="testimonial-name">Gabriel Caetano</h4><p class="testimonial-position">Communications Coordinator, Creative Studios</p></div>
-                <div class="testimonial-controls"><button class="testimonial-btn prev-btn"><i class="fas fa-chevron-left"></i></button><button class="testimonial-btn next-btn"><i class="fas fa-chevron-right"></i></button></div>
-                <div class="testimonial-dots"><div class="testimonial-dot active" data-index="0"></div><div class="testimonial-dot" data-index="1"></div><div class="testimonial-dot" data-index="2"></div></div>
+                <div class="testimonial-item active">
+                    <img src="assets/renato.jpeg" alt="Renatho Fugulin" class="testimonial-img" loading="lazy">
+                    <p class="testimonial-text">"Outstanding professional delivering results beyond our expectations. Their strategic and creative approach transformed our digital presence and significantly boosted conversions."</p>
+                    <h4 class="testimonial-name">Renatho Fugulin</h4>
+                    <p class="testimonial-position">Account Manager, SmartPR</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/joelma.jpeg" alt="Joelma Fraga" class="testimonial-img" loading="lazy">
+                    <p class="testimonial-text">"Working with this consultant was a transformative experience for our company. An empathetic professional with the gift of listening and extracting the best stories from people."</p>
+                    <h4 class="testimonial-name">Joelma Fraga</h4>
+                    <p class="testimonial-position">Head of Communications and Marketing, BHA</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/gabriel.jpeg" alt="Gabriel Caetano" class="testimonial-img" loading="lazy">
+                    <p class="testimonial-text">"Extremely competent and dedicated professional. Their integrated communication approach helped us establish a consistent presence across multiple channels and boost audience engagement."</p>
+                    <h4 class="testimonial-name">Gabriel Caetano</h4>
+                    <p class="testimonial-position">Communications Coordinator, Creative Studios</p>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev-btn" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                    <button class="testimonial-btn next-btn" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="testimonial-dots">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                </div>
             </div>
         </div>
     </section>
 
-<!-- Contact Section -->
-<section id="contact" class="contact">
-    <div class="container">
-        <div class="section-header">
-            <h2>Contact</h2>
-            <p>Let's talk about how I can help with your next project</p>
-        </div>
-        <div class="contact-content">
-            <div class="contact-info">
-                <h3>Let's Work Together</h3>
-                <p>I'm available for marketing and communications consulting projects in Brazil, Ireland and across Europe.</p>
-                <div class="contact-links">
-                    <a href="mailto:oconnorfranca@gmail.com" class="contact-link">
-                        <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
-                        <span>oconnorfranca@gmail.com</span>
-                    </a>
-                    <a href="tel:+353830805289" class="contact-link">
-                        <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
-                        <span>+353830805289</span>
-                    </a>
-                    <a href="#" class="contact-link">
-                        <div class="contact-link-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <span>Cork, Ireland</span>
-                    </a>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll">Get in Touch</h2>
+                <p>I'd love to hear about your project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Let's Work Together</h3>
+                    <p>Whether you need a communications strategy, a marketing campaign, or a website built — I'm here to help. Available for full-time roles, contracts, and project work.</p>
+                    <div class="contact-links">
+                        <a href="mailto:oconnorfranca@gmail.com" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+                            <span>oconnorfranca@gmail.com</span>
+                        </a>
+                        <a href="tel:+353830805289" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+                            <span>+353 83 080 5289</span>
+                        </a>
+                        <a href="https://wa.me/353830805289" class="contact-link" target="_blank" rel="noopener">
+                            <div class="contact-link-icon whatsapp-icon"><i class="fab fa-whatsapp"></i></div>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joaopaulofranca/" class="contact-link" target="_blank" rel="noopener">
+                            <div class="contact-link-icon linkedin-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <span>Cork, Ireland</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display:none"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+                        </button>
+                        <div class="form-status"></div>
+                    </form>
                 </div>
             </div>
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group"><input type="text" class="form-control" id="name" placeholder="Your Name" required></div>
-                    <div class="form-group"><input type="email" class="form-control" id="email" placeholder="Your Email" required></div>
-                    <div class="form-group"><input type="text" class="form-control" id="subject" placeholder="Subject"></div>
-                    <div class="form-group"><textarea class="form-control" id="message" placeholder="Your Message" required></textarea></div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-logo">OF<span>.</span>MediaTech</div>
-            <div class="footer-links"><a href="#hero" class="footer-link">Home</a><a href="#about" class="footer-link">About</a><a href="#services" class="footer-link">Services</a><a href="#portfolio" class="footer-link">Portfolio</a><a href="#skills" class="footer-link">Skills</a><a href="#testimonials" class="footer-link">Testimonials</a><a href="#contact" class="footer-link">Contact</a></div>
-            <div class="footer-social"><a href="https://www.linkedin.com/in/joaopaulofranca/" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a><a href="https://www.instagram.com/joaopfranca_" class="footer-social-link"><i class="fab fa-instagram"></i></a><a href="https://github.com/o-franca" class="footer-social-link"><i class="fab fa-github"></i></a></div>
-            <p class="footer-text">&copy; 2025 OF.MediaTech All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#services" class="footer-link">Services</a>
+                <a href="#portfolio" class="footer-link">Portfolio</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#testimonials" class="footer-link">Testimonials</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/joaopaulofranca/" class="footer-social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/joaopfranca_" class="footer-social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/o-franca" class="footer-social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="footer-text">&copy; <span id="current-year"></span> OF.MediaTech. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Back to Top -->
-    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/353830805289" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-    <!-- External JS -->
-    <script src="js/main.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Portfolio Modal -->
+    <div class="modal-overlay" id="portfolioModal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close"><i class="fas fa-times"></i></button>
+            <img class="modal-image" src="" alt="">
+            <div class="modal-body">
+                <h2 class="modal-title"></h2>
+                <p class="modal-desc"></p>
+                <div class="modal-metrics"></div>
+                <div class="modal-tags"></div>
+                <a href="#" class="btn btn-primary modal-link" target="_blank" rel="noopener">View Full Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
 </body>
 </html>
