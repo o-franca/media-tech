@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mediaconsultant.ie/sitemap.xml

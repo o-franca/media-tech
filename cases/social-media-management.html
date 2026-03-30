@@ -1,10 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IE">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Media Management Case Study</title>
+    <title>Social Media Management — OF.MediaTech | Joao Franca</title>
+    <meta name="description" content="With deep knowledge of digital marketing and community building, I managed daily content production and advertising campaigns. I also coordinated press...">
+    <link rel="canonical" href="https://mediaconsultant.ie/cases/social-media-management.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Social Media Management — OF.MediaTech">
+    <meta property="og:description" content="With deep knowledge of digital marketing and community building, I managed daily content production and advertising campaigns. I also coordinated press...">
+    <meta property="og:url" content="https://mediaconsultant.ie/cases/social-media-management.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .case-hero {
+            padding: 120px 0 60px;
+            background: linear-gradient(160deg, #fff9f3 0%, #fde8d8 40%, #f7bbe6 100%);
+            text-align: center;
+        }
+        .case-hero h1 {
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -0.3px;
+        }
+        .case-hero p {
+            color: rgba(34,34,34,0.6);
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .case-breadcrumb {
+            font-size: 0.82rem;
+            color: rgba(34,34,34,0.5);
+            margin-bottom: 16px;
+        }
+        .case-breadcrumb a {
+            color: rgba(34,34,34,0.5);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .case-breadcrumb a:hover { color: #f89d6b; }
+        .case-body {
+            padding: 60px 0 80px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .case-image {
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+        }
+        .case-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .case-body h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 32px 0 16px;
+            color: #222;
+        }
+        .case-body p {
+            color: #475569;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .case-results {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 32px;
+        }
+        .case-results li {
+            padding: 10px 0 10px 28px;
+            position: relative;
+            color: #475569;
+            border-bottom: 1px solid rgba(0,0,0,0.04);
+        }
+        .case-results li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: #7bd289;
+            font-size: 0.8rem;
+        }
+        .case-nav {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 40px;
+        }
+        .case-cta {
+            margin-top: 48px;
+            padding: 40px;
+            background: linear-gradient(135deg, #fde8d8 0%, #f7bbe6 100%);
+            border-radius: 16px;
+            text-align: center;
+        }
+        .case-cta h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .case-cta p {
+            color: rgba(34,34,34,0.65);
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,15 +123,15 @@
             <nav>
                 <a href="../index.html" class="logo">OF<span>.</span>MediaTech</a>
                 <ul class="nav-links">
-                    <li><a href="../index.html#hero">Home</a></li>
-                    <li><a href="../index.html#about">About</a></li>
-                    <li><a href="../index.html#services">Services</a></li>
-                    <li><a href="../index.html#portfolio">Portfolio</a></li>
-                    <li><a href="../index.html#skills">Skills</a></li>
-                    <li><a href="../index.html#testimonials">Testimonials</a></li>
-                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="../index.html#hero">HOME</a></li>
+                    <li><a href="../index.html#about">ABOUT</a></li>
+                    <li><a href="../index.html#services">SERVICES</a></li>
+                    <li><a href="../index.html#portfolio">PORTFOLIO</a></li>
+                    <li><a href="../index.html#skills">SKILLS</a></li>
+                    <li><a href="../index.html#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="../index.html#contact">CONTACT</a></li>
                 </ul>
-                <div class="mobile-menu">
+                <div class="mobile-menu" aria-label="Toggle menu">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -29,38 +140,51 @@
         </div>
     </header>
 
-    <section class="hero" style="padding: 100px 0; background-color: var(--light);">
+    <section class="case-hero">
         <div class="container">
+            <div class="case-breadcrumb">
+                <a href="../index.html">Home</a> / <a href="../index.html#portfolio">Portfolio</a> / Social Media Management
+            </div>
             <h1>Social Media Management</h1>
-            <p>Strategy and content creation for a retail brand's social channels.</p>
+            <p>With deep knowledge of digital marketing and community building, I managed daily content production and advertising...</p>
         </div>
     </section>
 
-    <section class="case-details" style="padding: 60px 0;">
+    <section class="case-body">
         <div class="container">
-            <div class="case-image" style="text-align:center; margin-bottom: 30px;">
-                <img src="../assets/IrishFlorist.png" alt="Social Media Management" style="max-width: 100%; height: auto;">
+            <div class="case-image">
+                <img src="../assets/IrishFlorist.png" alt="Social Media Management" loading="lazy">
             </div>
+
             <h2>Project Overview</h2>
             <p>With deep knowledge of digital marketing and community building, I managed daily content production and advertising campaigns. I also coordinated press activities to maximize reach.</p>
-            <h2>Results</h2>
-            <ul>
+
+            <h2>Key Results</h2>
+            <ul class="case-results">
                 <li>Steady growth in followers and engagement rate.</li>
                 <li>Integrated campaigns that drove traffic to the online store.</li>
                 <li>Clear brand voice recognized by customers and journalists.</li>
             </ul>
-            <p><a href="../index.html#portfolio" class="btn btn-primary">Back to Portfolio</a></p>
+
+            <div class="case-cta">
+                <h3>Interested in similar results?</h3>
+                <p>I'd love to discuss how I can help with your project.</p>
+                <a href="../index.html#contact" class="btn btn-primary" style="width: auto;">Get in Touch</a>
+            </div>
+
+            <div class="case-nav">
+                <a href="../index.html#portfolio" class="btn btn-outline" style="width: auto; color: #222; border-color: rgba(34,34,34,0.2);"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
             <div class="footer-logo">OF<span>.</span>MediaTech</div>
-            <p class="footer-text">&copy; 2025 OF.MediaTech All rights reserved.</p>
+            <p class="footer-text">&copy; <span id="current-year"></span> OF.MediaTech. All rights reserved.</p>
         </div>
     </footer>
 
-    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.js" defer></script>
 </body>
 </html>
