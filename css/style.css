@@ -341,6 +341,34 @@ nav {
     margin-bottom: 24px;
 }
 
+.hire-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hire-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(34,34,34,0.7);
+    border: 1px solid rgba(34,34,34,0.08);
+}
+
+.hire-tag i {
+    font-size: 0.72rem;
+    color: var(--accent);
+}
+
 .hero-languages {
     display: flex;
     gap: 8px;
@@ -1493,6 +1521,8 @@ footer {
     .hero-btns .btn { width: auto; }
 
     .hero-languages { justify-content: flex-start; }
+
+    .hire-options { justify-content: flex-start; }
 
     .hero-image {
         display: flex;
