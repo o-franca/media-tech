@@ -1,6 +1,6 @@
-# J.P. Franca — Marketing & Communications Consultant
+# J.P. Franca — AI Product Builder & Communications Strategist
 
-> Multilingual communications strategist based in Cork, Ireland. 8+ years experience. Available for hire as employee or VAT-registered contractor. Remote-friendly across EU.
+> I build products with AI and know how to sell them. Shipped 2 platforms to iOS/Android (Dine With Me, Media Training AI) without a programming degree. 8+ years in corporate communications (Samsung, Bayer, BH Airport). Based in Cork, Ireland. Available as employee or VAT-registered contractor. Remote-friendly across EU.
 
 ## Profile Summary
 
@@ -22,6 +22,14 @@ Availability: Immediate — Employee, B2B (VAT registered), or Remote
 
 ## Core Competencies
 
+### Product & AI
+- AI-Assisted Product Development (shipped 2 platforms to iOS/Android)
+- No-Code / Low-Code Development (WordPress, Vercel, Supabase, Capacitor)
+- Product Marketing & Go-to-Market Strategy
+- Rapid Prototyping & MVP Development
+- Growth Marketing & User Acquisition
+
+### Communications & Marketing
 - Strategic Communication (Internal & External)
 - Corporate Communications & PR
 - Media & Press Relations
@@ -31,8 +39,6 @@ Availability: Immediate — Employee, B2B (VAT registered), or Remote
 - Social Media Management
 - Email Marketing (Mailchimp, HubSpot)
 - Event Planning & Public Engagement
-- No-Code Development (WordPress, Vercel, Supabase, Capacitor)
-- AI-Assisted Product Development
 - Video Production & Editing
 - B2B & B2C Campaign Development
 - Telemarketing & Customer Service

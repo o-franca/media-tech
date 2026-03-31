@@ -1,12 +1,14 @@
 # OF.MediaTech — Portfolio of J.P. Franca
 
-**Marketing & Communications Consultant | No-Code Builder | Cork, Ireland**
+**AI Product Builder & Communications Strategist | Cork, Ireland**
+
+I build products with AI and know how to sell them.
 
 Live site: [mediaconsultant.ie](https://mediaconsultant.ie)
 
 ## About
 
-Multilingual Communications and Content Strategist with 8+ years of experience across corporate, public, and nonprofit sectors in Brazil and Ireland. Specialised in integrated communications, media relations, digital marketing, and no-code product development.
+AI Product Builder with 8+ years of communications experience. I shipped 2 platforms to iOS and Android (Dine With Me, Media Training AI) using AI tools and no-code development — no programming degree needed. Before building products, I spent years in corporate comms for Samsung, Bayer, and BH Airport.
 
 **Available for:** Full-time employment | B2B contracts (VAT registered) | Remote across EU
 
