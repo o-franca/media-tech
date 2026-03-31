@@ -837,6 +837,93 @@ nav {
 /* ============================================
    CTA Banner
    ============================================ */
+/* Nav Highlight (Book link) */
+.nav-highlight {
+    color: var(--accent) !important;
+    font-weight: 600 !important;
+}
+
+/* Book Banner */
+.book-banner {
+    padding: 60px 0;
+    background: linear-gradient(160deg, #fff9f3 0%, #fde8d8 60%, #f7bbe6 100%);
+}
+
+.book-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.book-banner-text {
+    flex: 1;
+}
+
+.book-banner-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(248,157,107,0.15);
+    color: var(--accent);
+    padding: 5px 12px;
+    border-radius: var(--radius-full);
+    font-size: 0.78rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.book-banner-text h2 {
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--dark);
+}
+
+.book-banner-text p {
+    color: rgba(34,34,34,0.65);
+    margin-bottom: 20px;
+    max-width: 440px;
+    line-height: 1.6;
+}
+
+.book-banner-text .btn-primary {
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.book-banner-image {
+    flex: 0 0 160px;
+}
+
+.book-banner-image img {
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.book-banner-image img:hover {
+    transform: translateY(-6px) rotate(-2deg);
+}
+
+@media (max-width: 768px) {
+    .book-banner-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .book-banner-text p {
+        max-width: 100%;
+    }
+    .book-banner-image {
+        flex: none;
+    }
+    .book-banner-image img {
+        width: 120px;
+    }
+}
+
 .cta-banner {
     padding: 60px 0;
     background: linear-gradient(135deg, #fde8d8 0%, #f7bbe6 50%, #c094e4 100%);

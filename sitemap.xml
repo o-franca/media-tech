@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://mediaconsultant.ie/book.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://mediaconsultant.ie/cases/digital-campaign.html</loc>
     <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
