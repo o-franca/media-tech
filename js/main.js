@@ -54,12 +54,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const typedElement = document.querySelector('.typed-text');
 if (typedElement) {
     const phrases = [
-        'Communications Consultant',
-        'Digital Marketing Specialist',
+        'AI Product Builder',
+        'Communications Strategist',
         'No-Code Developer',
-        'Sales & Telemarketing Pro',
-        'Content Creator',
-        'AI Enthusiast'
+        'Product Marketing Specialist',
+        'Content Creator & Storyteller',
+        'Growth-Minded Problem Solver'
     ];
     let phraseIndex = 0;
     let charIndex = 0;
