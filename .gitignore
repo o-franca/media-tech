@@ -1,0 +1,4 @@
+node_modules/
+blog/*/index.html
+blog/index.html
+blog/feed.xml

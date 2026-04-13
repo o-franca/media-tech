@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — OF.MediaTech | Joao Franca</title>
+    <meta name="description" content="Insights on AI, communications, marketing strategy, and product building for businesses in Ireland and the UK. By Joao Franca.">
+    <link rel="canonical" href="https://mediaconsultant.ie/blog/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blog — OF.MediaTech">
+    <meta property="og:description" content="Insights on AI, communications, marketing strategy, and product building for businesses in Ireland and the UK.">
+    <meta property="og:url" content="https://mediaconsultant.ie/blog/">
+    <meta property="og:site_name" content="OF.MediaTech">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog — OF.MediaTech">
+    <meta name="twitter:description" content="Insights on AI, communications, marketing strategy, and product building for businesses in Ireland and the UK.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "OF.MediaTech Blog",
+        "description": "Insights on AI, communications, marketing strategy, and product building in Ireland and the UK",
+        "url": "https://mediaconsultant.ie/blog/",
+        "author": {
+            "@type": "Person",
+            "name": "Joao Franca",
+            "url": "https://mediaconsultant.ie/"
+        },
+        "blogPost": [
+        {{blogPostsSchema}}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediaconsultant.ie/" },
+            { "@type": "ListItem", "position": 2, "name": "Blog" }
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="alternate" type="application/rss+xml" title="OF.MediaTech Blog" href="/blog/feed.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LE0KHW7ZXK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LE0KHW7ZXK');
+    </script>
+
+    <style>
+        .case-hero {
+            padding: 120px 0 60px;
+            background: linear-gradient(160deg, #fff9f3 0%, #fde8d8 40%, #f7bbe6 100%);
+            text-align: center;
+        }
+        .case-hero h1 {
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -0.3px;
+        }
+        .case-hero p {
+            color: rgba(34,34,34,0.6);
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .case-breadcrumb {
+            font-size: 0.82rem;
+            color: rgba(34,34,34,0.5);
+            margin-bottom: 16px;
+        }
+        .case-breadcrumb a {
+            color: rgba(34,34,34,0.5);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .case-breadcrumb a:hover { color: #f89d6b; }
+        .blog-listing {
+            padding: 60px 20px 80px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        @media (min-width: 768px) {
+            .blog-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 1024px) {
+            .blog-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        .blog-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.06), 0 10px 10px -5px rgba(0,0,0,0.02);
+        }
+        .blog-card-body {
+            padding: 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card-category {
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #f89d6b;
+            margin-bottom: 8px;
+        }
+        .blog-card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .blog-card-desc {
+            font-size: 0.9rem;
+            color: #475569;
+            line-height: 1.6;
+            flex: 1;
+            margin-bottom: 16px;
+        }
+        .blog-card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: rgba(34,34,34,0.4);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">OF<span>.</span>MediaTech</a>
+                <ul class="nav-links">
+                    <li><a href="../index.html#hero">HOME</a></li>
+                    <li><a href="../index.html#about">ABOUT</a></li>
+                    <li><a href="../index.html#services">SERVICES</a></li>
+                    <li><a href="../index.html#portfolio">PORTFOLIO</a></li>
+                    <li><a href="../blog/" class="nav-highlight">BLOG</a></li>
+                    <li><a href="../index.html#contact">CONTACT</a></li>
+                    <li><a href="../book.html">BOOK</a></li>
+                </ul>
+                <div class="mobile-menu" aria-label="Toggle menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="case-hero">
+        <div class="container">
+            <div class="case-breadcrumb">
+                <a href="../index.html">Home</a> / Blog
+            </div>
+            <h1>Blog</h1>
+            <p>Insights on AI, communications, marketing, and product building for businesses in Ireland & the UK.</p>
+        </div>
+    </section>
+
+    <section class="blog-listing">
+        <div class="blog-grid">
+{{posts}}
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">OF<span>.</span>MediaTech</div>
+            <p class="footer-text">&copy; <span id="current-year"></span> OF.MediaTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+</body>
+</html>
