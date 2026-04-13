@@ -277,6 +277,24 @@ The businesses that win at SEO are the ones that commit to it consistently over 
 
 If you're a small business in Ireland or the UK looking to grow your online presence, start with the basics outlined in this guide. The compound effect of good SEO practices will pay dividends for years to come.
 
+## FAQ
+
+### How long does it take for SEO to work?
+
+Most small businesses start seeing measurable improvements in rankings and organic traffic within three to six months of consistent effort. However, competitive keywords in crowded markets can take six to twelve months or longer. Local SEO tends to show results faster, especially once your Google Business Profile is optimised and you start collecting reviews. The key is consistency -- SEO compounds over time and the longer you invest in it, the stronger your results become.
+
+### How much does SEO cost for a small business in Ireland or the UK?
+
+You can start SEO for free using tools like Google Search Console, Google Analytics, and Google Business Profile. If you hire a freelance SEO consultant in Ireland or the UK, expect to pay between 500 and 2,000 euros per month depending on the scope of work. Agencies typically charge more, starting from 1,000 to 3,000 euros per month. For many small businesses, investing your own time in the fundamentals outlined in this guide is the most cost-effective starting point.
+
+### Can I do SEO myself or do I need to hire someone?
+
+Absolutely, you can handle the fundamentals yourself. Claiming your Google Business Profile, writing quality content, optimising title tags, and building local citations are all tasks a business owner can learn and execute. Where professional help becomes valuable is for technical SEO audits, competitive keyword strategy, and link building at scale. Start with the basics yourself and consider hiring an expert once you have a foundation in place and want to accelerate growth.
+
+### What is the single most important SEO factor for small businesses?
+
+For small businesses in Ireland and the UK, your Google Business Profile is the single highest-impact SEO asset. It directly influences your visibility in local search results and Google Maps, which is where most local customers find businesses. Combine a fully optimised profile with consistent reviews, accurate business information across directories, and quality content on your website, and you have a strong SEO foundation.
+
 ---
 
 *Need help developing an SEO strategy for your business? [Get in touch](/index.html#contact) — I help small businesses in Ireland and the UK build their online presence through smart, sustainable digital marketing.*

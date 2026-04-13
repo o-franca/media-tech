@@ -176,3 +176,21 @@ The most important piece of advice I can give any small business owner consideri
 Talk to your customers. Understand their frustrations. Identify the specific moment where an app would make their experience meaningfully better. Build for that moment first, and expand from there.
 
 Whether you use a no-code builder over a weekend or invest in a professionally developed native app, the businesses that succeed are the ones that stay focused on delivering genuine value to their users.
+
+## FAQ
+
+### How much does it cost to build an app in Ireland?
+
+Costs vary widely depending on your approach. A no-code app can cost as little as 25 to 150 euros per month in platform fees. Hiring a freelance developer in Ireland for a hybrid app typically runs between 5,000 and 25,000 euros, while agency-built or native apps can range from 15,000 to 50,000 euros or more per platform. Starting with a no-code MVP is the most cost-effective way to validate your idea before committing to a larger investment.
+
+### Should I use no-code or hire a developer for custom development?
+
+No-code platforms are ideal if your app has standard functionality like bookings, directories, or simple e-commerce, and you want to launch quickly on a tight budget. Custom development is worth the investment when you need advanced features, high performance, complex integrations, or a unique user experience that no-code tools cannot deliver. Many successful businesses start with no-code to test their concept, then invest in custom development once they have proven demand.
+
+### How long does it take to build an MVP app?
+
+A no-code MVP can be built in one to four weeks. A hybrid app MVP with a freelance developer typically takes two to four months. A native app MVP takes three to six months per platform. The key is keeping your feature list ruthlessly short -- focus on three to five core features that solve one problem exceptionally well, and build from there based on real user feedback.
+
+### Do I need to hire a developer or can I build an app myself?
+
+With modern no-code platforms like Glide, Adalo, and FlutterFlow, many small business owners can build functional apps themselves without writing a single line of code. If your app idea involves standard features and you are comfortable learning a new tool, you can absolutely build it yourself. You should consider hiring a developer when you need custom functionality, complex backend logic, or a highly polished native experience that no-code tools cannot achieve.

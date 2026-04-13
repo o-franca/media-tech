@@ -172,3 +172,21 @@ If you are starting from zero or resetting a neglected social media presence, he
 **Day five.** Set up basic tracking. Install Meta Pixel on your website if using Facebook or Instagram ads. Create UTM links for your profile URLs.
 
 Social media success for small businesses is not about viral moments or massive budgets. It is about showing up consistently with valuable content, engaging genuinely with your community, and measuring what matters. Start small, stay consistent, and refine your approach based on data. The results will follow.
+
+## FAQ
+
+### What is the best social media platform for small businesses in Ireland and the UK?
+
+It depends on your business type. For B2C businesses like restaurants, retail, and beauty services, Instagram is the strongest platform in 2026 thanks to Reels and visual discovery. For B2B businesses, professional services, and consultancies, LinkedIn delivers the highest quality leads. Facebook remains powerful for local businesses through Groups and Marketplace. Pick one primary platform based on where your ideal customers spend their time, and master it before expanding.
+
+### How often should a small business post on social media?
+
+Aim for three to five posts per week on your primary platform and two to three on your secondary platform. Consistency matters far more than frequency -- posting three times a week every week for a year will always outperform daily posting that fizzles out after two months. Use batch content creation to prepare a full week of posts in two to three hours, and supplement feed posts with daily Stories on Instagram or daily engagement on LinkedIn.
+
+### Should I focus on organic social media or paid advertising?
+
+You need both, but organic content should be your foundation. Organic builds your brand personality, nurtures your existing audience, and creates content worth sharing. Paid advertising excels at reaching new audiences and driving specific actions like website visits or sign-ups. Start with a budget of 200 to 500 euros per month -- boost your best-performing organic post each week and run one targeted campaign per month for the strongest return on investment.
+
+### How do I measure social media ROI for my small business?
+
+Track engagement rate (3-6% is healthy on Instagram, 2-4% on LinkedIn), website clicks from social profiles using UTM parameters, and conversions such as enquiries, bookings, or sales that originate from social media. Ask new customers how they found you. Review your metrics monthly, identify your three best and worst performing posts, and look for patterns in topics, formats, and posting times that you can use to refine your strategy.

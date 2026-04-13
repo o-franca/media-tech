@@ -8,6 +8,8 @@
   "devDependencies": {
     "marked": "^15.0.0",
     "gray-matter": "^4.0.3",
-    "feed": "^4.2.2"
+    "feed": "^4.2.2",
+    "clean-css": "^5.3.3",
+    "terser": "^5.31.0"
   }
 }

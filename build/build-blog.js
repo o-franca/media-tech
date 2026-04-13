@@ -34,6 +34,48 @@ function formatDateISO(dateStr) {
   return new Date(dateStr).toISOString().split('T')[0];
 }
 
+function extractFAQ(rawContent) {
+  // Look for ## FAQ or ## Frequently Asked Questions section
+  const faqMatch = rawContent.match(/^##\s+(?:FAQ|Frequently Asked Questions)\s*\n([\s\S]+?)(?=\n##\s[^#]|\n---|\Z)/m);
+  if (!faqMatch) return [];
+
+  const faqSection = faqMatch[1];
+  const faqs = [];
+  // Extract ### Question + following paragraph(s) as answer
+  const parts = faqSection.split(/^###\s+/m).filter(Boolean);
+  for (const part of parts) {
+    const lines = part.trim().split('\n');
+    const question = lines[0].replace(/\??\s*$/, '?').trim();
+    const answer = lines.slice(1).join(' ').replace(/\n/g, ' ').trim();
+    if (question && answer) {
+      faqs.push({ question, answer });
+    }
+  }
+  return faqs;
+}
+
+function buildFAQSchema(faqs) {
+  if (faqs.length === 0) return '';
+  const items = faqs.map(faq => `{
+                "@type": "Question",
+                "name": "${faq.question.replace(/"/g, '\\"')}",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "${faq.answer.replace(/"/g, '\\"')}"
+                }
+            }`).join(',\n            ');
+  return `
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            ${items}
+        ]
+    }
+    </script>`;
+}
+
 function getAllPosts() {
   const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
   const posts = files.map(file => {
@@ -41,12 +83,14 @@ function getAllPosts() {
     const { data, content } = matter(raw);
     const html = marked(content);
     const words = wordCount(content);
+    const faqs = extractFAQ(content);
     return {
       ...data,
       content: html,
       rawContent: content,
       wordCount: words,
       readingTime: data.reading_time || Math.ceil(words / 250),
+      faqs,
       file,
     };
   });
@@ -77,7 +121,8 @@ function buildPost(post, template) {
     .replace(/\{\{tagsJson\}\}/g, tagsJson)
     .replace(/\{\{readingTime\}\}/g, String(post.readingTime))
     .replace(/\{\{wordCount\}\}/g, String(post.wordCount))
-    .replace(/\{\{content\}\}/g, post.content);
+    .replace(/\{\{content\}\}/g, post.content)
+    .replace(/\{\{faqSchema\}\}/g, buildFAQSchema(post.faqs || []));
 
   const outDir = path.join(BLOG_DIR, post.slug);
   fs.mkdirSync(outDir, { recursive: true });
@@ -204,4 +249,26 @@ updateSitemap(posts);
 console.log('\nGenerating RSS:');
 buildRSS(posts);
 
-console.log(`\nDone! Built ${posts.length} posts + index + sitemap + RSS.`);
+// Minify CSS and JS
+console.log('\nMinifying CSS & JS:');
+const CleanCSS = require('clean-css');
+const { minify: terserMinify } = require('terser');
+
+const cssPath = path.join(ROOT, 'css', 'style.css');
+const cssMinPath = path.join(ROOT, 'css', 'style.min.css');
+const cssSource = fs.readFileSync(cssPath, 'utf-8');
+const cssResult = new CleanCSS({ level: 2 }).minify(cssSource);
+fs.writeFileSync(cssMinPath, cssResult.styles);
+console.log(`  Minified: css/style.min.css (${Math.round(cssResult.stats.efficiency * 100)}% smaller)`);
+
+const jsPath = path.join(ROOT, 'js', 'main.js');
+const jsMinPath = path.join(ROOT, 'js', 'main.min.js');
+const jsSource = fs.readFileSync(jsPath, 'utf-8');
+terserMinify(jsSource).then(jsResult => {
+  fs.writeFileSync(jsMinPath, jsResult.code);
+  console.log('  Minified: js/main.min.js');
+  console.log(`\nDone! Built ${posts.length} posts + index + sitemap + RSS + minified assets.`);
+}).catch(err => {
+  console.error('  Error minifying JS:', err.message);
+  process.exit(1);
+});

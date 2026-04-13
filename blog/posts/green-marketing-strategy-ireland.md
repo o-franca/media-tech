@@ -155,3 +155,21 @@ Green marketing is not a trend that will pass. Environmental regulations in Irel
 Small businesses that build genuine sustainability into their operations and marketing now are positioning themselves for long-term success. They will be ahead of regulation rather than scrambling to catch up. They will have loyal customer bases built on trust. And they will be contributing to the environmental outcomes that matter to all of us.
 
 The journey does not require perfection. It requires honesty, commitment, and a willingness to improve. Start with one meaningful change, communicate it clearly, and build from there. Your customers in Ireland and the UK are ready to support businesses that take sustainability seriously.
+
+## FAQ
+
+### What is green marketing?
+
+Green marketing is the practice of promoting your products or services based on their environmental benefits and your business's sustainability credentials. It goes beyond simply using eco-friendly packaging -- it encompasses your entire approach to communicating how your business reduces its environmental impact. Effective green marketing is built on genuine action first, with transparent communication about what you are doing and why.
+
+### How can my business avoid greenwashing?
+
+The most important rule is to only claim what you can prove. Be specific rather than vague -- say "our packaging is made from 80% recycled materials" instead of "eco-friendly packaging." Back up every claim with data, certifications, or third-party verification. Acknowledge where you are still improving rather than claiming perfection, and keep your claims current as your practices evolve. Following the CMA's Green Claims Code is a solid framework for staying on the right side of honesty.
+
+### Do consumers in Ireland and the UK actually care about sustainability?
+
+Yes, and the evidence is clear. A significant majority of consumers across Ireland and the UK consider environmental impact when making purchasing decisions, with the trend strongest among millennials and Gen Z. Irish consumers are particularly attuned to local sourcing and food miles, while UK consumers tend to demand specific evidence behind sustainability claims. Businesses that demonstrate genuine environmental responsibility are winning both new customers and stronger loyalty.
+
+### What green certifications are available for businesses in Ireland?
+
+Irish businesses have several accessible options. Origin Green, run by Bord Bia, is the leading sustainability programme for food and drink businesses and is free to join. Guaranteed Irish signals local production and shorter supply chains. SEAI energy ratings are valuable for property and construction businesses. For broader recognition, ISO 14001 (environmental management), B Corp certification, and FSC certification for paper and wood products are all recognised in both the Irish and UK markets.
