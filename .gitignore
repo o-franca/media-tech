@@ -2,3 +2,5 @@ node_modules/
 blog/*/index.html
 blog/index.html
 blog/feed.xml
+css/style.min.css
+js/main.min.js

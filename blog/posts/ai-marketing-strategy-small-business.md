@@ -123,3 +123,21 @@ AI marketing tools are improving rapidly. What required significant technical kn
 The opportunity is particularly strong in Ireland and the UK, where many small businesses are still in the early stages of AI adoption. Being an early mover in your local market means you can capture attention and efficiency gains before your competitors catch up.
 
 If you are a small business owner looking to explore what AI can do for your marketing, start with one tool, one problem, and one measurable goal. The results will speak for themselves.
+
+## FAQ
+
+### How much do AI marketing tools cost for small businesses?
+
+Many AI marketing tools offer free tiers or affordable plans starting from 10 to 50 euros per month. Tools like Google Analytics 4, ChatGPT's free tier, and Mailchimp's basic plan let you get started without any upfront investment. As your needs grow, paid plans with advanced features typically range from 50 to 200 euros per month, which is still far less than hiring additional staff.
+
+### Do small businesses in Ireland and the UK really need AI for marketing?
+
+You do not need AI, but it gives you a significant competitive advantage. AI helps small businesses automate repetitive tasks, personalise customer experiences, and make data-driven decisions that would otherwise require a much larger team. In the Irish and UK market, early adopters are already seeing measurable gains in efficiency and customer engagement.
+
+### What is the best AI tool to start with for small business marketing?
+
+The best starting point depends on your biggest pain point. If customer enquiries are overwhelming you, start with a chatbot like Tidio. If content creation is your bottleneck, try an AI writing assistant. If you are running paid ads, use the built-in AI features in Google Ads or Meta Ads. Pick one tool that solves your most pressing problem and master it before adding others.
+
+### How long does it take to see results from AI marketing?
+
+You can see immediate efficiency gains from tools like chatbots and content generators within the first week. For measurable business results like increased leads or improved conversion rates, expect to invest 30 to 90 days of consistent use and refinement. AI tools learn and improve over time, so the longer you use them and feed them quality data, the better your results will be.

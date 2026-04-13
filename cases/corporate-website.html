@@ -11,6 +11,8 @@
     <meta property="og:title" content="Corporate Website — OF.MediaTech">
     <meta property="og:description" content="Leveraging my expertise in digital marketing and corporate communications, I designed and developed a responsive website that clearly communicated the...">
     <meta property="og:url" content="https://mediaconsultant.ie/cases/corporate-website.html">
+    <meta property="og:image" content="https://mediaconsultant.ie/assets/og-default.webp">
+    <meta name="robots" content="max-image-preview:large">
 
     <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.min.css">
     <style>
         .case-hero {
             padding: 120px 0 60px;
@@ -118,6 +120,17 @@
             margin-bottom: 20px;
         }
     </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediaconsultant.ie/" },
+            { "@type": "ListItem", "position": 2, "name": "Portfolio", "item": "https://mediaconsultant.ie/#portfolio" },
+            { "@type": "ListItem", "position": 3, "name": "Corporate Website" }
+        ]
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -189,6 +202,6 @@
         </div>
     </footer>
 
-    <script src="../js/main.js" defer></script>
+    <script src="../js/main.min.js" defer></script>
 </body>
 </html>

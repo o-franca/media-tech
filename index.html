@@ -16,13 +16,16 @@
     <meta property="og:title" content="Joao Franca — AI Product Builder & Communications Strategist | Cork, Ireland">
     <meta property="og:description" content="I build products with AI and know how to sell them. Built 2 platforms from scratch (iOS/Android). 8+ years in communications. Available in Ireland or remote.">
     <meta property="og:url" content="https://mediaconsultant.ie/">
+    <meta property="og:image" content="https://mediaconsultant.ie/assets/og-default.webp">
     <meta property="og:locale" content="en_IE">
     <meta property="og:site_name" content="OF.MediaTech">
+    <meta name="robots" content="max-image-preview:large">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Joao Franca — AI Product Builder & Communications Strategist">
     <meta name="twitter:description" content="I build products with AI and know how to sell them. 2 platforms shipped. 8+ years in comms. Cork, Ireland.">
+    <meta name="twitter:image" content="https://mediaconsultant.ie/assets/og-default.webp">
 
     <!-- Schema.org -->
     <script type="application/ld+json">
@@ -43,12 +46,39 @@
             "jobTitle": "AI Product Builder & Communications Strategist",
             "knowsLanguage": ["en", "pt", "es"]
         },
-        "areaServed": ["Ireland", "Europe", "Brazil"]
+        "areaServed": ["Ireland", "Europe", "Brazil"],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "3",
+            "bestRating": "5"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Renatho Fugulin" },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                "reviewBody": "Outstanding professional delivering results beyond our expectations. Their strategic and creative approach transformed our digital presence and significantly boosted conversions."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Joelma Fraga" },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                "reviewBody": "Working with this consultant was a transformative experience for our company. An empathetic professional with the gift of listening and extracting the best stories from people."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Gabriel Caetano" },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                "reviewBody": "Extremely competent and dedicated professional. Their integrated communication approach helped us establish a consistent presence across multiple channels and boost audience engagement."
+            }
+        ]
     }
     </script>
 
-    <!-- Favicon -->
+    <!-- Favicon & RSS -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="alternate" type="application/rss+xml" title="OF.MediaTech Blog" href="/blog/feed.xml">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +88,7 @@
     <!-- CSS & Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LE0KHW7ZXK"></script>
@@ -464,7 +494,7 @@
                      data-metrics="39 copies sold|106 monthly page views|Published on Amazon|9,300+ ad impressions|SEO optimised|Cross-cultural inspiration"
                      data-tags="Book,Writing,Amazon,Creative"
                      data-link="book.html">
-                    <img src="assets/Letsgettogether.png" alt="Let's Get Together Book" class="portfolio-img" loading="lazy">
+                    <img src="assets/Letsgettogether.webp" alt="Let's Get Together Book" class="portfolio-img" loading="lazy">
                     <div class="portfolio-overlay">
                         <span class="portfolio-tag">Published Author</span>
                         <h3>Let's Get Together</h3>
@@ -593,7 +623,7 @@
                     <a href="book.html" class="btn btn-primary" onclick="gtag('event','click_book_banner',{event_category:'book',event_label:'homepage_banner'})"><i class="fab fa-amazon"></i> Get It on Amazon</a>
                 </div>
                 <div class="book-banner-image">
-                    <img src="assets/Letsgettogether.png" alt="Let's Get Together Book" loading="lazy">
+                    <img src="assets/Letsgettogether.webp" alt="Let's Get Together Book" loading="lazy">
                 </div>
             </div>
         </div>
@@ -828,6 +858,6 @@
         </div>
     </div>
 
-    <script src="js/main.js" defer></script>
+    <script src="js/main.min.js" defer></script>
 </body>
 </html>
