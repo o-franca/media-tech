@@ -122,9 +122,15 @@
   </url>
   <url>
     <loc>https://mediaconsultant.ie/blog/</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mediaconsultant.ie/blog/vibe-design-claude-code-canva-ads/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://mediaconsultant.ie/blog/app-store-optimisation-aso-guide/</loc>
