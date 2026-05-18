@@ -1,5 +1,5 @@
 ---
-title: "Why I Built Liveloop: The Social Feed Is About to Become Interactive"
+title: "The Social Feed Is About to Become Interactive"
 slug: "why-i-built-liveloop"
 description: "Why I built Liveloop, an open-source social network where every post is an interactive mini app you can play, save, send to friends, and build with AI."
 date: "2026-05-18"
@@ -9,7 +9,7 @@ category: "Product Building"
 reading_time: 8
 ---
 
-# Why I Built Liveloop: The Social Feed Is About to Become Interactive
+# The Social Feed Is About to Become Interactive
 
 Think about what you actually do when you open a social app. You scroll. You watch a video. You read a caption. You tap a heart, maybe leave a comment, maybe share. Then you scroll again. For all the technology sitting behind the feed, the experience has stayed remarkably passive -- content is something that happens *to* you.
 
