@@ -94,6 +94,12 @@ Communications Intern
 
 ## Freelance & Personal Projects
 
+### Liveloop (2026) — https://liveloop.space
+Open-source social network where every post is an executable artifact
+(games, infographics, chatbots, mini-tools) running inline in a sandboxed
+9:16 feed. Scroll, play, save to a board, and remix any artifact. Built from scratch.
+Tech: Next.js 16, React 19, TypeScript, Supabase, Tailwind CSS. MIT licensed.
+
 ### Dine With Me (2025) — https://dinewithme.org
 Social dining platform with cooking competitions. Built from scratch.
 Tech: HTML/CSS/JS, Supabase, Capacitor, Stripe. iOS & Android.
