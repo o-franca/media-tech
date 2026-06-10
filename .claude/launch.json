@@ -4,7 +4,7 @@
     {
       "name": "portfolio",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8090", "--directory", "/Users/joao.franca/Desktop/CLI/media-tech-redesign/.claude/worktrees/stupefied-jackson"],
+      "runtimeArgs": ["-m", "http.server", "8090", "--directory", "/Users/joao.franca/Desktop/CLI/media-tech-redesign"],
       "port": 8090
     }
   ]

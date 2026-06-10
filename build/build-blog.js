@@ -9,7 +9,7 @@ const POSTS_DIR = path.join(ROOT, 'blog', 'posts');
 const BLOG_DIR = path.join(ROOT, 'blog');
 const TEMPLATES_DIR = path.join(__dirname, 'templates');
 const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
-const SITE_URL = 'https://mediaconsultant.ie';
+const SITE_URL = 'https://www.ofmediatech.com';
 
 // Configure marked
 marked.setOptions({
@@ -163,7 +163,7 @@ function updateSitemap(posts) {
   let xml = fs.readFileSync(SITEMAP_PATH, 'utf-8');
 
   // Remove any previous blog entries
-  xml = xml.replace(/\s*<url>\s*<loc>https:\/\/mediaconsultant\.ie\/blog\/[^]*?<\/url>/g, '');
+  xml = xml.replace(/\s*<url>\s*<loc>https:\/\/www\.ofmediatech\.com\/blog\/[^]*?<\/url>/g, '');
 
   // Remove closing tag
   xml = xml.replace('</urlset>', '').trimEnd();
