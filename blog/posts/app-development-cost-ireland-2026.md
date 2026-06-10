@@ -15,7 +15,7 @@ The most common question I hear from founders in Ireland and the UK is some vari
 
 App development costs in 2026 are fundamentally different from even three years ago. AI-assisted development tools have compressed timelines dramatically. Platforms like Vercel and Supabase have eliminated much of the infrastructure overhead. And hybrid frameworks mean you no longer need to build separate iOS and Android apps from scratch.
 
-I have built two apps -- [Dine With Me](https://dinewithme.org), a gamified social dining platform with Stripe payments and real-time chat, and [Media Training AI](https://mediatraining.ai), an AI-powered public speaking platform. Both shipped to production using AI-assisted development and lean budgets. This guide breaks down realistic costs based on that experience.
+I have built two apps -- [Dine With Me](https://dinecompetitions.com/en), a gamified social dining platform with Stripe payments and real-time chat, and [Media Training AI](https://mediatraining.ai), an AI-powered public speaking platform. Both shipped to production using AI-assisted development and lean budgets. This guide breaks down realistic costs based on that experience.
 
 ## The Three Cost Tiers
 

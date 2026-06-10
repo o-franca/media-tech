@@ -15,7 +15,7 @@ Over 60 percent of app downloads come from people searching directly in the App 
 
 This is why App Store Optimisation matters more than most founders realise. If your app does not appear when someone searches for a relevant term, you are invisible to the majority of potential users. And unlike website SEO, ASO improvements can show results within days.
 
-I have applied these practices to both [Dine With Me](https://dinewithme.org) and [Media Training AI](https://mediatraining.ai) -- two different apps in different categories. The principles are the same regardless of your niche. This guide covers every element that affects your ranking and conversion rate.
+I have applied these practices to both [Dine With Me](https://dinecompetitions.com/en) and [Media Training AI](https://mediatraining.ai) -- two different apps in different categories. The principles are the same regardless of your niche. This guide covers every element that affects your ranking and conversion rate.
 
 ## How App Store Search Works
 

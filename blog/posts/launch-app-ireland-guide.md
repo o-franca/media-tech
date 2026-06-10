@@ -13,7 +13,7 @@ reading_time: 8
 
 You have built something. After months of development, testing, and iteration, your app is ready -- or at least you think it is. Now comes the part that nobody warns you about: the launch itself is a project of its own, and getting it wrong can bury a good product before anyone has a chance to use it.
 
-I went through this entire process when launching [Dine With Me](https://dinewithme.org) on both the iOS App Store and Google Play. The app includes Stripe payments, real-time chat, push notifications, and a gamified dining experience -- not a simple app by any measure. This guide covers the exact steps I took and the lessons that would have saved me considerable time.
+I went through this entire process when launching [Dine With Me](https://dinecompetitions.com/en) on both the iOS App Store and Google Play. The app includes Stripe payments, real-time chat, push notifications, and a gamified dining experience -- not a simple app by any measure. This guide covers the exact steps I took and the lessons that would have saved me considerable time.
 
 ## Phase 1: Development Readiness
 
