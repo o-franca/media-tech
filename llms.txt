@@ -103,9 +103,11 @@ Communications Intern
 
 ## Freelance & Personal Projects
 
-### Liveloop (2026) — https://www.liveloop.space
-Interactive social platform where every post is a tiny app you can play, save, and remix.
-Tech: Next.js, React, TypeScript, Supabase, Capacitor. Open-source templates on GitHub.
+### Liveloop (2026) — https://liveloop.space
+Open-source social network where every post is an executable artifact
+(games, infographics, chatbots, mini-tools) running inline in a sandboxed
+9:16 feed. Scroll, play, save to a board, and remix any artifact. Built from scratch.
+Tech: Next.js 16, React 19, TypeScript, Supabase, Tailwind CSS. MIT licensed.
 Launch: created the "Stop Scrolling. Go Build Something." TikTok campaign — 4 videos
 produced entirely with AI, targeting gamers, geeks, no-coders and content creators.
 Campaign case: https://www.ofmediatech.com/cases/liveloop-campaign.html

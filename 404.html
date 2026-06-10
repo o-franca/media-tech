@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found — OF.MediaTech</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <style>
+        .error-hero {
+            padding: 160px 0 100px;
+            background: linear-gradient(160deg, #fff9f3 0%, #fde8d8 40%, #f7bbe6 100%);
+            text-align: center;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+        .error-hero h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 12px;
+            letter-spacing: -1px;
+        }
+        .error-hero h2 {
+            font-size: clamp(1.2rem, 3vw, 1.6rem);
+            font-weight: 500;
+            color: rgba(34,34,34,0.6);
+            margin-bottom: 32px;
+        }
+        .error-hero p {
+            color: rgba(34,34,34,0.5);
+            font-size: 1rem;
+            max-width: 500px;
+            margin: 0 auto 32px;
+        }
+        .error-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo">OF<span>.</span>MediaTech</a>
+                <ul class="nav-links">
+                    <li><a href="/#hero">HOME</a></li>
+                    <li><a href="/#about">ABOUT</a></li>
+                    <li><a href="/#services">SERVICES</a></li>
+                    <li><a href="/#portfolio">PORTFOLIO</a></li>
+                    <li><a href="/blog/">BLOG</a></li>
+                    <li><a href="/#contact">CONTACT</a></li>
+                    <li><a href="/book.html" class="nav-highlight">BOOK</a></li>
+                </ul>
+                <div class="mobile-menu" aria-label="Toggle menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="error-hero">
+        <div class="container">
+            <h1>404</h1>
+            <h2>Page Not Found</h2>
+            <p>The page you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
+            <div class="error-links">
+                <a href="/" class="btn btn-primary" style="width: auto;">Go Home</a>
+                <a href="/blog/" class="btn btn-outline" style="width: auto; color: #222; border-color: rgba(34,34,34,0.2);">Read the Blog</a>
+                <a href="/#contact" class="btn btn-outline" style="width: auto; color: #222; border-color: rgba(34,34,34,0.2);">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">OF<span>.</span>MediaTech</div>
+            <p class="footer-text">&copy; <span id="current-year"></span> OF.MediaTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js" defer></script>
+</body>
+</html>

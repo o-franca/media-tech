@@ -22,6 +22,7 @@
     <meta property="og:image:alt" content="J.P. Franca — AI Product Builder & Content Creator, Cork, Ireland">
     <meta property="og:locale" content="en_IE">
     <meta property="og:site_name" content="OF.MediaTech">
+    <meta name="robots" content="max-image-preview:large">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -46,7 +47,33 @@
                     "addressCountry": "IE"
                 },
                 "founder": { "@id": "https://www.ofmediatech.com/#person" },
-                "areaServed": ["Ireland", "Europe", "Brazil"]
+                "areaServed": ["Ireland", "Europe", "Brazil"],
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5",
+                    "reviewCount": "3",
+                    "bestRating": "5"
+                },
+                "review": [
+                    {
+                        "@type": "Review",
+                        "author": { "@type": "Person", "name": "Renatho Fugulin" },
+                        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                        "reviewBody": "Outstanding professional delivering results beyond our expectations. Their strategic and creative approach transformed our digital presence and significantly boosted conversions."
+                    },
+                    {
+                        "@type": "Review",
+                        "author": { "@type": "Person", "name": "Joelma Fraga" },
+                        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                        "reviewBody": "Working with this consultant was a transformative experience for our company. An empathetic professional with the gift of listening and extracting the best stories from people."
+                    },
+                    {
+                        "@type": "Review",
+                        "author": { "@type": "Person", "name": "Gabriel Caetano" },
+                        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+                        "reviewBody": "Extremely competent and dedicated professional. Their integrated communication approach helped us establish a consistent presence across multiple channels and boost audience engagement."
+                    }
+                ]
             },
             {
                 "@type": "Person",
@@ -113,8 +140,9 @@
     }
     </script>
 
-    <!-- Favicon -->
+    <!-- Favicon & RSS -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="alternate" type="application/rss+xml" title="OF.MediaTech Blog" href="/blog/feed.xml">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,7 +152,7 @@
     <!-- CSS & Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LE0KHW7ZXK"></script>
@@ -149,6 +177,8 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="blog/">Blog</a></li>
+                    <li><a href="book.html" class="nav-highlight">Book</a></li>
                 </ul>
                 <div class="mobile-menu" aria-label="Toggle menu">
                     <div></div>
@@ -178,8 +208,8 @@
                     <div class="hero-btns">
                         <a href="#portfolio" class="btn btn-primary">View My Work</a>
                         <a href="#contact" class="btn btn-outline">Let's Talk</a>
-                        <a href="assets/CV-JoaoPauloFranca.pdf" class="btn btn-accent" download onclick="gtag('event','download_cv',{event_category:'engagement',event_label:'hero_button'})">
-                            <i class="fas fa-download"></i> Download CV
+                        <a href="https://www.linkedin.com/in/joaopaulofranca/" class="btn btn-accent" target="_blank" rel="noopener noreferrer" onclick="gtag('event','linkedin_click',{event_category:'engagement',event_label:'hero_button'})">
+                            <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
                     </div>
                     <div class="hero-languages">
@@ -370,16 +400,16 @@
                     </div>
                 </div>
                 <div class="portfolio-item animate-on-scroll" data-category="web"
-                     data-title="Liveloop — Interactive Social Platform"
-                     data-desc="An interactive timeline for social media where every post is a tiny app you can play, save, and remix — my third shipped platform, built with AI-assisted development. I also created its TikTok launch campaign (Stop Scrolling. Go Build Something.) with videos produced entirely with AI."
-                     data-metrics="Full social platform|Every post is a tiny app|Next.js, React &amp; Supabase|Open-source templates on GitHub|TikTok launch campaign"
-                     data-tags="Next.js,React,TypeScript,Supabase,AI,Capacitor"
-                     data-link="https://www.liveloop.space">
-                    <img src="assets/liveloop-platform.jpg" alt="Liveloop interactive social platform" class="portfolio-img" loading="lazy">
+                     data-title="Liveloop"
+                     data-desc="An open-source social network where the post format is the innovation — every post is an executable artifact (games, infographics, chatbots, mini-tools) that runs inline in a sandboxed 9:16 feed. Built from scratch with Next.js 16, React 19, and Supabase. I also created its TikTok launch campaign (Stop Scrolling. Go Build Something.) with videos produced entirely with AI."
+                     data-metrics="Built from scratch|Next.js 16 &amp; React 19|Interactive in-feed artifacts|Remix with version history|Open source (MIT)|TikTok launch campaign"
+                     data-tags="Next.js,React,TypeScript,Supabase,Tailwind,Open Source"
+                     data-link="https://liveloop.space">
+                    <img src="assets/liveloop.webp" alt="Liveloop — interactive timeline for social media" class="portfolio-img" loading="lazy">
                     <div class="portfolio-overlay">
                         <span class="portfolio-tag">Featured</span>
                         <h3>Liveloop</h3>
-                        <p>Social platform where every post is a tiny app</p>
+                        <p>Interactive timeline for social media — built from scratch</p>
                         <button class="portfolio-btn">View Details</button>
                     </div>
                 </div>
@@ -568,8 +598,8 @@
                      data-desc="A book of unusual and funny questions for getting closer to someone. Published on Amazon in 2023, inspired by cultural differences with my Irish wife. 33 copies sold. Ran Amazon Sponsored Products: 9,300+ impressions."
                      data-metrics="39 copies sold|106 monthly page views|Published on Amazon|9,300+ ad impressions|SEO optimised|Cross-cultural inspiration"
                      data-tags="Book,Writing,Amazon,Creative"
-                     data-link="https://www.amazon.ie/dp/B0CKRY6H23">
-                    <img src="assets/Letsgettogether.png" alt="Let's Get Together Book" class="portfolio-img" loading="lazy">
+                     data-link="book.html">
+                    <img src="assets/Letsgettogether.webp" alt="Let's Get Together Book" class="portfolio-img" loading="lazy">
                     <div class="portfolio-overlay">
                         <span class="portfolio-tag">Published Author</span>
                         <h3>Let's Get Together</h3>
@@ -614,6 +644,20 @@
                     <div class="portfolio-overlay">
                         <h3>Elite Feminina</h3>
                         <p>Full digital marketing — 80+ courses</p>
+                        <button class="portfolio-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" data-category="video"
+                     data-title="Hidden Patterns — YouTube Channel"
+                     data-desc="Whiteboard animation channel exploring psychology concepts in English. Each video breaks down complex behavioral and cognitive patterns through clear, engaging visuals and storytelling."
+                     data-metrics="Whiteboard animation|Psychology concepts|English content|YouTube channel"
+                     data-tags="Video,YouTube,Animation,Psychology,Content Creation,English"
+                     data-link="https://www.youtube.com/watch?v=zsGulkTB18M">
+                    <img src="assets/hidden-patterns.png" alt="Hidden Patterns YouTube Channel" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">YouTube Channel</span>
+                        <h3>Hidden Patterns</h3>
+                        <p>Whiteboard animation — psychology concepts</p>
                         <button class="portfolio-btn">View Details</button>
                     </div>
                 </div>
@@ -682,6 +726,23 @@
                         <p>Verification platform + B2B strategy</p>
                         <button class="portfolio-btn">View Details</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Banner -->
+    <section class="book-banner">
+        <div class="container">
+            <div class="book-banner-content">
+                <div class="book-banner-text">
+                    <span class="book-banner-badge"><i class="fas fa-star"></i> 5.0 on Amazon</span>
+                    <h2>Let's Get Together</h2>
+                    <p>My book of unusual and funny questions for getting closer to someone. 239 pages of meaningful conversations.</p>
+                    <a href="book.html" class="btn btn-primary" onclick="gtag('event','click_book_banner',{event_category:'book',event_label:'homepage_banner'})"><i class="fab fa-amazon"></i> Get It on Amazon</a>
+                </div>
+                <div class="book-banner-image">
+                    <img src="assets/Letsgettogether.webp" alt="Let's Get Together Book" loading="lazy">
                 </div>
             </div>
         </div>
@@ -920,6 +981,6 @@
         </div>
     </div>
 
-    <script src="js/main.js" defer></script>
+    <script src="js/main.min.js" defer></script>
 </body>
 </html>
