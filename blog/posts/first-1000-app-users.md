@@ -15,7 +15,7 @@ The hardest users to get are the first ones. Your app is live, the design is pol
 
 Getting your first 1,000 users is fundamentally different from scaling to 10,000 or 100,000. You cannot rely on algorithms, network effects, or brand recognition. You need to reach people individually, convince them to try something they have never heard of, and learn from every interaction.
 
-With [Dine With Me](https://dinewithme.org), we ran a B2B outreach campaign that generated 382 leads, sent over 5,060 emails, made 213 phone calls, conducted 37 in-person visits, and closed 2 sales partnerships. With [Media Training AI](https://mediatraining.ai), I ran Google Ads campaigns to drive early adoption. Neither path was glamorous. Both were effective.
+With [Dine With Me](https://dinecompetitions.com/en), we ran a B2B outreach campaign that generated 382 leads, sent over 5,060 emails, made 213 phone calls, conducted 37 in-person visits, and closed 2 sales partnerships. With [Media Training AI](https://mediatraining.ai), I ran Google Ads campaigns to drive early adoption. Neither path was glamorous. Both were effective.
 
 ## Phase 1: Pre-Launch (4 to 8 Weeks Before)
 

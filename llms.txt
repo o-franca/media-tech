@@ -114,7 +114,7 @@ Launch: created the "Stop Scrolling. Go Build Something." TikTok campaign — 4 
 produced entirely with AI, targeting gamers, geeks, no-coders and content creators.
 Campaign case: https://www.ofmediatech.com/cases/liveloop-campaign.html
 
-### Dine With Me (2025) — https://dinewithme.org
+### Dine With Me (2025) — https://dinecompetitions.com/en
 Social dining platform with cooking competitions. Built from scratch.
 Tech: HTML/CSS/JS, Supabase, Capacitor, Stripe. iOS & Android.
 

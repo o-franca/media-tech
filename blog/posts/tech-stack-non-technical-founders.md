@@ -15,7 +15,7 @@ If you are a non-technical founder, the phrase "tech stack" probably sounds inti
 
 Here is the good news: you do not need to become a developer to make smart technology decisions. What you need is a clear understanding of what each piece does, why it matters, and how the choices affect your budget and timeline.
 
-I will explain every layer of a modern app's tech stack in plain English, using the stack behind [Dine With Me](https://dinewithme.org) as a running example. Dine With Me is a gamified social dining app with user accounts, Stripe payments, real-time chat, push notifications, and listings on both the App Store and Google Play. Each technology choice was made deliberately, and I will explain why.
+I will explain every layer of a modern app's tech stack in plain English, using the stack behind [Dine With Me](https://dinecompetitions.com/en) as a running example. Dine With Me is a gamified social dining app with user accounts, Stripe payments, real-time chat, push notifications, and listings on both the App Store and Google Play. Each technology choice was made deliberately, and I will explain why.
 
 ## What Is a Tech Stack?
 

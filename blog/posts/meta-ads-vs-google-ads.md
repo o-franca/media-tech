@@ -13,7 +13,7 @@ reading_time: 8
 
 If you have any marketing budget at all, there is a good chance you have asked yourself this question: should I spend it on Google Ads or Meta Ads? It is one of the most common questions I get from small business owners across Ireland and the UK, and the honest answer is that it depends entirely on your business, your audience, and your goals.
 
-I have run campaigns on both platforms for different products and can tell you from direct experience that they work very differently. When I launched Google Ads campaigns for [Media Training AI](https://mediatraining.ai), I was targeting people who were already searching for public speaking help. The intent was there. With [Dine With Me](https://dinewithme.org), a social dining app, I used Meta Ads to reach people who did not know the product existed yet but matched the profile of someone who would love it. Both platforms delivered results, but the strategies were completely different.
+I have run campaigns on both platforms for different products and can tell you from direct experience that they work very differently. When I launched Google Ads campaigns for [Media Training AI](https://mediatraining.ai), I was targeting people who were already searching for public speaking help. The intent was there. With [Dine With Me](https://dinecompetitions.com/en), a social dining app, I used Meta Ads to reach people who did not know the product existed yet but matched the profile of someone who would love it. Both platforms delivered results, but the strategies were completely different.
 
 This guide breaks down the key differences so you can make an informed decision about where to put your money.
 
