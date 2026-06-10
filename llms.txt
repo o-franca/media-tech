@@ -1,6 +1,6 @@
-# J.P. Franca — AI Product Builder & Communications Strategist
+# J.P. Franca — AI Product Builder, Video & Content Creator
 
-> I build products with AI and know how to sell them. Shipped 2 platforms to iOS/Android (Dine With Me, Media Training AI) without a programming degree. 8+ years in corporate communications (Samsung, Bayer, BH Airport). Based in Cork, Ireland. Available as employee or VAT-registered contractor. Remote-friendly across EU.
+> I build products with AI and know how to sell them. Shipped 3 platforms (Dine With Me, Media Training AI, Liveloop) without a programming degree. Journalist by training with 8+ years in corporate communications (Samsung, Bayer, BH Airport). Produces video, social media content, websites and apps. Based in Cork, Ireland. Available as employee or VAT-registered contractor. Remote-friendly across EU.
 
 ## Profile Summary
 
@@ -13,6 +13,15 @@ Phone: +353 83 080 5289
 Portfolio: https://mediaconsultant.ie
 LinkedIn: https://www.linkedin.com/in/joaopaulofranca/
 Availability: Immediate — Employee, B2B (VAT registered), or Remote
+
+## Target Roles (best-fit positions)
+
+- Video Content Producer / Video Editor (AI-powered production, TikTok, Reels, Shorts, corporate video)
+- Social Media Content Creator / Social Media Manager
+- Web & App Builder (no-code / AI-assisted development: Next.js, Supabase, Capacitor, Vercel)
+- Communications, PR & Press Officer (Journalism degree, communications agency background: MSL Group/Publicis)
+- Product Marketing / Growth Marketing
+- Content Strategist / Copywriter (EN/PT/ES)
 
 ## Education
 
@@ -93,6 +102,13 @@ Communications Intern
 - Crisis communications support
 
 ## Freelance & Personal Projects
+
+### Liveloop (2026) — https://www.liveloop.space
+Interactive social platform where every post is a tiny app you can play, save, and remix.
+Tech: Next.js, React, TypeScript, Supabase, Capacitor. Open-source templates on GitHub.
+Launch: created the "Stop Scrolling. Go Build Something." TikTok campaign — 4 videos
+produced entirely with AI, targeting gamers, geeks, no-coders and content creators.
+Campaign case: https://mediaconsultant.ie/cases/liveloop-campaign.html
 
 ### Dine With Me (2025) — https://dinewithme.org
 Social dining platform with cooking competitions. Built from scratch.

@@ -55,8 +55,10 @@ const typedElement = document.querySelector('.typed-text');
 if (typedElement) {
     const phrases = [
         'AI Product Builder',
+        'Video & Content Producer',
         'Communications Strategist',
         'No-Code Developer',
+        'Journalist & PR Professional',
         'Product Marketing Specialist',
         'Content Creator & Storyteller',
         'Growth-Minded Problem Solver'
