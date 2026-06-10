@@ -19,6 +19,7 @@ Availability: Immediate — Employee, B2B (VAT registered), or Remote
 - Video Content Producer / Video Editor (AI-powered production, TikTok, Reels, Shorts, corporate video)
 - Social Media Content Creator / Social Media Manager
 - Web & App Builder (no-code / AI-assisted development: Next.js, Supabase, Capacitor, Vercel)
+- AI Agent Builder / AI Trainer (Claude, Claude Code, MCP, prompt engineering — built 3 products with AI agents; this site ships llms.txt and structured data for agent consumption)
 - Communications, PR & Press Officer (Journalism degree, communications agency background: MSL Group/Publicis)
 - Product Marketing / Growth Marketing
 - Content Strategist / Copywriter (EN/PT/ES)
@@ -33,6 +34,7 @@ Availability: Immediate — Employee, B2B (VAT registered), or Remote
 
 ### Product & AI
 - AI-Assisted Product Development (shipped 3 platforms: Dine With Me, Media Training AI, Liveloop)
+- AI Agents & Automation (Claude, Claude Code, MCP, prompt engineering)
 - No-Code / Low-Code Development (WordPress, Vercel, Supabase, Capacitor)
 - Product Marketing & Go-to-Market Strategy
 - Rapid Prototyping & MVP Development
