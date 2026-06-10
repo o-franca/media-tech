@@ -4,7 +4,7 @@
 
 I build products with AI and know how to sell them.
 
-Live site: [mediaconsultant.ie](https://mediaconsultant.ie)
+Live site: [ofmediatech.com](https://www.ofmediatech.com)
 
 ## About
 
@@ -52,7 +52,7 @@ English (fluent) | Portuguese (native) | Spanish (basic)
 - **Email:** oconnorfranca@gmail.com
 - **Phone:** +353 83 080 5289
 - **LinkedIn:** [linkedin.com/in/joaopaulofranca](https://www.linkedin.com/in/joaopaulofranca/)
-- **Portfolio:** [mediaconsultant.ie](https://mediaconsultant.ie)
+- **Portfolio:** [ofmediatech.com](https://www.ofmediatech.com)
 - **WhatsApp:** [wa.me/353830805289](https://wa.me/353830805289)
 - **Location:** Cork, Ireland (EEA Citizen)
 

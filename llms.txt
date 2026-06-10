@@ -10,7 +10,7 @@ Citizenship: EEA (Portuguese)
 Languages: English (fluent), Portuguese (native), Spanish (basic)
 Email: oconnorfranca@gmail.com
 Phone: +353 83 080 5289
-Portfolio: https://mediaconsultant.ie
+Portfolio: https://www.ofmediatech.com
 LinkedIn: https://www.linkedin.com/in/joaopaulofranca/
 Availability: Immediate — Employee, B2B (VAT registered), or Remote
 
@@ -32,7 +32,7 @@ Availability: Immediate — Employee, B2B (VAT registered), or Remote
 ## Core Competencies
 
 ### Product & AI
-- AI-Assisted Product Development (shipped 2 platforms to iOS/Android)
+- AI-Assisted Product Development (shipped 3 platforms: Dine With Me, Media Training AI, Liveloop)
 - No-Code / Low-Code Development (WordPress, Vercel, Supabase, Capacitor)
 - Product Marketing & Go-to-Market Strategy
 - Rapid Prototyping & MVP Development
@@ -108,7 +108,7 @@ Interactive social platform where every post is a tiny app you can play, save, a
 Tech: Next.js, React, TypeScript, Supabase, Capacitor. Open-source templates on GitHub.
 Launch: created the "Stop Scrolling. Go Build Something." TikTok campaign — 4 videos
 produced entirely with AI, targeting gamers, geeks, no-coders and content creators.
-Campaign case: https://mediaconsultant.ie/cases/liveloop-campaign.html
+Campaign case: https://www.ofmediatech.com/cases/liveloop-campaign.html
 
 ### Dine With Me (2025) — https://dinewithme.org
 Social dining platform with cooking competitions. Built from scratch.
