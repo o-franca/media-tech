@@ -8,7 +8,7 @@ Live site: [ofmediatech.com](https://www.ofmediatech.com)
 
 ## About
 
-AI Product Builder and journalist with 8+ years of communications experience. I shipped 3 platforms (Dine With Me, Media Training AI, Liveloop) using AI tools and no-code development — no programming degree needed. I produce video and social media content, build websites and apps, and before that I spent years in corporate comms for Samsung, Bayer, and BH Airport.
+AI Product Builder and journalist with 8+ years of communications experience. I shipped 4 platforms (PhoneBot, Dine With Me, Media Training AI, Liveloop) using AI tools and no-code development — no programming degree needed. I produce video and social media content, build websites and apps, and before that I spent years in corporate comms for Samsung, Bayer, and BH Airport.
 
 **Available for:** Full-time employment | B2B contracts (VAT registered) | Remote across EU
 
@@ -18,6 +18,7 @@ AI Product Builder and journalist with 8+ years of communications experience. I 
 - **BH Airport** — 100+ publications, 50+ videos, press advisory for 30,000 passengers/day airport
 - **MSL Group / Publicis** — Samsung, ABCR, Inframerica Airports key accounts
 - **CNH Industrial** — LinkedIn Top Companies 9th place, 100% organic, Aberje Award
+- **PhoneBot** — AI phone-answering service (AI receptionist) for Irish small businesses, live at phonebot.ie
 - **Liveloop** — Interactive social platform where every post is a tiny app, launched with an AI-produced TikTok campaign
 - **Dine With Me** — Built a full social dining platform (iOS, Android, Web) from scratch
 - **Media Training AI** — AI-powered public speaking coach with Google Ads campaigns
@@ -72,6 +73,7 @@ English (fluent) | Portuguese (native) | Spanish (basic)
 
 | Year | Project | Result |
 |------|---------|--------|
+| 2026 | PhoneBot | AI phone-answering service (AI receptionist) for Irish small businesses — phonebot.ie |
 | 2026 | Liveloop | Interactive social platform + AI-produced TikTok launch campaign |
 | 2025 | Dine With Me | Full-stack social platform (iOS, Android, Web) |
 | 2025 | DWM Press / Signed with Faith | 382 leads, 5,060 emails, 213 calls, 2 sales |
