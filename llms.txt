@@ -1,6 +1,6 @@
 # J.P. Franca — AI Product Builder, Video & Content Creator
 
-> I build products with AI and know how to sell them. Shipped 3 platforms (Dine With Me, Media Training AI, Liveloop) without a programming degree. Journalist by training with 8+ years in corporate communications (Samsung, Bayer, BH Airport). Produces video, social media content, websites and apps. Based in Cork, Ireland. Available as employee or VAT-registered contractor. Remote-friendly across EU.
+> I build products with AI and know how to sell them. Shipped 4 platforms (PhoneBot, Dine With Me, Media Training AI, Liveloop) without a programming degree. Journalist by training with 8+ years in corporate communications (Samsung, Bayer, BH Airport). Produces video, social media content, websites and apps. Based in Cork, Ireland. Available as employee or VAT-registered contractor. Remote-friendly across EU.
 
 ## Profile Summary
 
@@ -33,7 +33,7 @@ Availability: Immediate — Employee, B2B (VAT registered), or Remote
 ## Core Competencies
 
 ### Product & AI
-- AI-Assisted Product Development (shipped 3 platforms: Dine With Me, Media Training AI, Liveloop)
+- AI-Assisted Product Development (shipped 4 platforms: PhoneBot, Dine With Me, Media Training AI, Liveloop)
 - AI Agents & Automation (Claude, Claude Code, MCP, prompt engineering)
 - No-Code / Low-Code Development (WordPress, Vercel, Supabase, Capacitor)
 - Product Marketing & Go-to-Market Strategy
@@ -104,6 +104,13 @@ Communications Intern
 - Crisis communications support
 
 ## Freelance & Personal Projects
+
+### PhoneBot (2026) — https://phonebot.ie/
+AI phone-answering service (AI receptionist) for Irish small businesses. Built from scratch.
+Answers calls after hours and when staff can't pick up, holds a natural spoken conversation,
+captures every enquiry, and sends the lead to WhatsApp, email and a spreadsheet — 24/7.
+Tech: HTML/CSS/JS, Supabase (auth, DB, edge functions), Vapi (voice AI), Stripe (billing),
+Resend (email), WhatsApp Cloud API. GDPR-compliant. Service area: Ireland.
 
 ### Liveloop (2026) — https://liveloop.space
 Open-source social network where every post is an executable artifact
